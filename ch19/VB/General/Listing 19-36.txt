@@ -1,0 +1,6 @@
+If Membership.ValidateUser(TextBox1.Text, TextBox2.Text) Then
+   Roles.DeleteCookie()
+   FormsAuthentication.RedirectFromLoginPage(TextBox1.Text, False)
+Else
+   Label1.Text = "You are not registered with the site."
+End If

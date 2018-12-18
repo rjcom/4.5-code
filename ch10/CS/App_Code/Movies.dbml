@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="Movies" Class="MoviesDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="WebSettings" ConnectionString="Data Source=(LocalDB)\v11.0;AttachDbFilename=|DataDirectory|\Movies.mdf;Integrated Security=True;User Instance=False" SettingsObjectName="System.Configuration.ConfigurationManager.ConnectionStrings" SettingsPropertyName="MoviesConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.Movies" Member="Movies">
+    <Type Name="Movie">
+      <Column Name="Title" Type="System.String" DbType="NChar(100) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="Director" Type="System.String" DbType="NChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="Genre" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Runtime" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="ReleaseDate" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
+      <Association Name="Genre_Movie" Member="Genre1" ThisKey="Genre" OtherKey="ID" Type="Genre" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Genres" Member="Genres">
+    <Type Name="Genre" Id="ID1">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="Name" Type="System.String" DbType="NChar(20) NOT NULL" CanBeNull="false" />
+      <Association Name="Genre_Movie" Member="Movies" ThisKey="ID" OtherKey="Genre" Type="Movie" />
+    </Type>
+  </Table>
+  <Table Name="dbo.AllMovies" Member="AllMovies">
+    <Type Name="AllMovies">
+      <Column Name="Title" Type="System.String" DbType="NChar(100)" CanBeNull="true" />
+      <Column Name="Director" Type="System.String" DbType="NChar(50)" CanBeNull="true" />
+      <Column Name="Runtime" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="ReleaseDate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="Genre" Type="System.String" DbType="NChar(20)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Function Name="dbo.GetGenre" Method="GetGenre">
+    <Parameter Name="id" Type="System.Int32" DbType="Int" />
+    <ElementType IdRef="ID1" />
+  </Function>
+  <Function Name="dbo.InsertMovie" Method="InsertMovie">
+    <Parameter Name="title" Type="System.String" DbType="NVarChar(100)" />
+    <Parameter Name="director" Type="System.String" DbType="NVarChar(50)" />
+    <Parameter Name="genre" Type="System.Int32" DbType="Int" />
+    <Parameter Name="runtime" Type="System.Int32" DbType="Int" />
+    <Parameter Name="releasedate" Type="System.DateTime" DbType="DateTime" />
+    <Return Type="System.Int32" />
+  </Function>
+</Database>

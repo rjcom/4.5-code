@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="AdventureWorks2012_DataModel2StoreContainer" CdmEntityContainer="AdventureWorks2012_DataEntities2">
+    <EntitySetMapping Name="Vendors">
+      <EntityTypeMapping TypeName="IsTypeOf(AdventureWorks2012_DataModel2.InactiveVendor)">
+        <MappingFragment StoreEntitySet="Vendor">
+          <ScalarProperty Name="ModifiedDate" ColumnName="ModifiedDate" />
+          <ScalarProperty Name="PurchasingWebServiceURL" ColumnName="PurchasingWebServiceURL" />
+          <ScalarProperty Name="PreferredVendorStatus" ColumnName="PreferredVendorStatus" />
+          <ScalarProperty Name="CreditRating" ColumnName="CreditRating" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="AccountNumber" ColumnName="AccountNumber" />
+          <ScalarProperty Name="BusinessEntityID" ColumnName="BusinessEntityID" />
+          <Condition ColumnName="ActiveFlag" Value="0" />
+        </MappingFragment>
+      </EntityTypeMapping>
+      <EntityTypeMapping TypeName="AdventureWorks2012_DataModel2.Vendor">
+        <MappingFragment StoreEntitySet="Vendor">
+          <ScalarProperty Name="BusinessEntityID" ColumnName="BusinessEntityID" />
+          <ScalarProperty Name="ModifiedDate" ColumnName="ModifiedDate" />
+          <ScalarProperty Name="PurchasingWebServiceURL" ColumnName="PurchasingWebServiceURL" />
+          <ScalarProperty Name="PreferredVendorStatus" ColumnName="PreferredVendorStatus" />
+          <ScalarProperty Name="CreditRating" ColumnName="CreditRating" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="AccountNumber" ColumnName="AccountNumber" />
+          <Condition ColumnName="ActiveFlag" Value="1" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

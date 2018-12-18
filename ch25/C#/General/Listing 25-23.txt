@@ -1,0 +1,3 @@
+﻿<asp:TextBox ID="TextBox1" runat="server" />
+
+<Juice:Datepicker TargetControlID="TextBox1" runat="server" />

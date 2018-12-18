@@ -1,0 +1,11 @@
+Public Sub Profile_MigrateAnonymous(ByVal sender As Object, ByVal e As ProfileMigrateEventArgs)
+
+      Dim au As ProfileCommon = Profile.GetProfile(e.AnonymousID)
+        
+       If au.MemberDetails.DateJoined <> "" Then
+          Profile.MemberDetails.DateJoined = DateTime.Now().ToString()
+           Profile.FamilyDetails.MarriedStatus = au.FamilyDetails.MarriedStatus
+       End If
+
+      AnonymousIdentificationModule.ClearAnonymousIdentifier()
+End Sub

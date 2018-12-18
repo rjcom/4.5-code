@@ -1,0 +1,25 @@
+﻿<%@ Page Language="C#" %>
+<%@ Import Namespace="Microsoft.AspNet.Membership.OpenAuth"  %>
+
+<script runat="server">
+
+    protected void Button1_Click(object sender, EventArgs e)
+    {
+        OpenAuth.RequestAuthentication("facebook", "~/Listing 19-41.aspx");        
+    }
+</script>
+
+
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head id="Head1" runat="server">
+    <title>Login Page</title>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <asp:Login ID="Login1" Runat="server">
+        </asp:Login>
+        <asp:Button ID="Button1" Text="Login with Facebook"
+            runat="server" OnClick="Button1_Click" />
+    </form>
+</body>
+</html>

@@ -1,0 +1,7 @@
+<configuration>
+    <system.web>
+        <sessionState mode="StateServer"
+            stateConnectionString="tcpip=127.0.0.1:42424">
+        </sessionState>
+    </system.web>
+</configuration>

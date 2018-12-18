@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="727b85cb1f43437186ac0abaa3ea2438" Name="Diagram1">
+        <EntityTypeShape EntityType="AdventureWorks2012_DataModel.Employee" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="AdventureWorks2012_DataModel.Department" Width="1.5" PointX="7.25" PointY="3.125" />
+        <EntityTypeShape EntityType="AdventureWorks2012_DataModel.EmployeeDepartmentHistory" Width="1.5" PointX="5" PointY="2.75" />
+        <EntityTypeShape EntityType="AdventureWorks2012_DataModel.EmployeePayHistory" Width="1.5" PointX="3.375" PointY="0.875" />
+        <AssociationConnector Association="AdventureWorks2012_DataModel.FK_EmployeeDepartmentHistory_Department_DepartmentID" />
+        <AssociationConnector Association="AdventureWorks2012_DataModel.FK_EmployeeDepartmentHistory_Employee_BusinessEntityID" />
+        <AssociationConnector Association="AdventureWorks2012_DataModel.FK_EmployeePayHistory_Employee_BusinessEntityID" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

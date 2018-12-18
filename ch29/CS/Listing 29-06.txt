@@ -1,0 +1,11 @@
+protected override void OnError(EventArgs e)
+{
+    System.Exception anError = Server.GetLastError();
+    if (anError.GetBaseException() is SomeSpecificException)
+    {
+        Response.Write("Something bad happened!");
+        Response.StatusCode = 200;
+        Server.ClearError();
+        Response.End();
+    }
+}

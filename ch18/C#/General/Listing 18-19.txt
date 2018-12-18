@@ -1,0 +1,19 @@
+public void Profile_Personalize(object sender, ProfileEventArgs args)
+{
+  ProfileCommon checkedProfile;
+
+  if (User == null) { return; }
+
+  checkedProfile = (ProfileCommon)ProfileBase.Create(User.Identity.Name);
+
+  if (DateTime.Now.IsDaylightSavingTime()) {
+    checkedProfile = checkedProfile.GetProfile("TimeDifferenceUser"); 
+  }
+  else {
+    checkedProfile = checkedProfile.GetProfile("TimeUser"); 
+  }
+
+  if (checkedProfile != null) {
+    args.Profile = checkedProfile;
+  }
+}

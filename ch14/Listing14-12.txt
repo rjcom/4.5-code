@@ -1,0 +1,25 @@
+<configuration>
+    <connectionStrings>
+        <add name="LocalSqlServer"
+            connectionString="Data Source=127.0.0.1;Integrated Security=SSPI" />
+    </connectionStrings>
+    <system.web>
+        <profile>
+            <providers>
+                <clear />
+                <add name="AspNetSqlProfileProvider"
+                    connectionStringName="LocalSqlServer" applicationName="/"
+                    type="System.Web.Profile.SqlProfileProvider, System.Web,
+                    Version=4.0.0.0, Culture=neutral,
+                    PublicKeyToken=b03f5f7f11d50a3a" />
+            </providers>
+            <properties>
+                <add name="FirstName" />
+                <add name="LastName" />
+                <add name="LastVisited" />
+                <add name="Age" />
+                <add name="Member" />
+            </properties>
+        </profile>
+    </system.web>
+</configuration>

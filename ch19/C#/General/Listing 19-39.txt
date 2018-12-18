@@ -1,0 +1,14 @@
+﻿<%@ Application Language="C#" %>
+<%@ Import Namespace="Microsoft.AspNet.Membership.OpenAuth"  %>
+
+<script runat="server">
+    // put in Global.asax
+
+    void Application_Start(object sender, EventArgs e) 
+    {
+       OpenAuth.AuthenticationClients.AddFacebook(
+            appId: "* use your own *",
+            appSecret: "* use your own *");
+    }
+    
+</script>

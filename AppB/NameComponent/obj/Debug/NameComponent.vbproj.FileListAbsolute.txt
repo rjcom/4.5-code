@@ -1,0 +1,8 @@
+C:\Users\pranavra\Dropbox\Docs\aspnet45book\pranav's chapter\appendixB\code\NameComponent\bin\Debug\NameComponent.dll
+C:\Users\pranavra\Dropbox\Docs\aspnet45book\pranav's chapter\appendixB\code\NameComponent\bin\Debug\NameComponent.pdb
+C:\Users\pranavra\Dropbox\Docs\aspnet45book\pranav's chapter\appendixB\code\NameComponent\bin\Debug\NameComponent.xml
+C:\Users\pranavra\Dropbox\Docs\aspnet45book\pranav's chapter\appendixB\code\NameComponent\obj\Debug\NameComponent.Resources.resources
+C:\Users\pranavra\Dropbox\Docs\aspnet45book\pranav's chapter\appendixB\code\NameComponent\obj\Debug\NameComponent.vbproj.GenerateResource.Cache
+C:\Users\pranavra\Dropbox\Docs\aspnet45book\pranav's chapter\appendixB\code\NameComponent\obj\Debug\NameComponent.dll
+C:\Users\pranavra\Dropbox\Docs\aspnet45book\pranav's chapter\appendixB\code\NameComponent\obj\Debug\NameComponent.xml
+C:\Users\pranavra\Dropbox\Docs\aspnet45book\pranav's chapter\appendixB\code\NameComponent\obj\Debug\NameComponent.pdb

@@ -1,0 +1,9 @@
+<configuration>
+    <system.web>
+        <sessionState mode="SQLServer"
+            allowCustomSqlDatabase="true"
+            sqlConnectionString="Data Source=127.0.0.1;
+            database=MyCustomASPStateDatabase;Integrated Security=SSPI">
+        </sessionState>
+    </system.web>
+</configuration>

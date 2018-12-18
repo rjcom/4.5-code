@@ -1,0 +1,6 @@
+<configuration>
+    <system.web>
+        <sessionState mode="InProc">
+        </sessionState>
+    </system.web>
+</configuration>

@@ -1,0 +1,7 @@
+protected string GeneratePassword()
+{
+   string returnPassword;
+   returnPassword = Membership.GeneratePassword(10, 3);
+
+   return returnPassword;
+}

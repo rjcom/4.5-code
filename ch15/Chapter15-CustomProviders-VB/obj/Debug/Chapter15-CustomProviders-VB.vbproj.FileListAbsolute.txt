@@ -1,0 +1,16 @@
+C:\Users\JasonGaylord\documents\visual studio 2012\Projects\Chapter15\Chapter15-CustomProviders-VB\bin\Chapter15-CustomProviders-VB.dll
+C:\Users\JasonGaylord\documents\visual studio 2012\Projects\Chapter15\Chapter15-CustomProviders-VB\bin\Chapter15-CustomProviders-VB.pdb
+C:\Users\JasonGaylord\documents\visual studio 2012\Projects\Chapter15\Chapter15-CustomProviders-VB\bin\Chapter15-CustomProviders-VB.xml
+C:\Users\JasonGaylord\documents\visual studio 2012\Projects\Chapter15\Chapter15-CustomProviders-VB\obj\Debug\Chapter15_CustomProviders_VB.Resources.resources
+C:\Users\JasonGaylord\documents\visual studio 2012\Projects\Chapter15\Chapter15-CustomProviders-VB\obj\Debug\Chapter15-CustomProviders-VB.vbproj.GenerateResource.Cache
+C:\Users\JasonGaylord\documents\visual studio 2012\Projects\Chapter15\Chapter15-CustomProviders-VB\obj\Debug\Chapter15-CustomProviders-VB.dll
+C:\Users\JasonGaylord\documents\visual studio 2012\Projects\Chapter15\Chapter15-CustomProviders-VB\obj\Debug\Chapter15-CustomProviders-VB.xml
+C:\Users\JasonGaylord\documents\visual studio 2012\Projects\Chapter15\Chapter15-CustomProviders-VB\obj\Debug\Chapter15-CustomProviders-VB.pdb
+C:\Users\JasonGaylord\Desktop\311820 ch15 Code\Chapter15\Chapter15-CustomProviders-VB\bin\Chapter15-CustomProviders-VB.dll
+C:\Users\JasonGaylord\Desktop\311820 ch15 Code\Chapter15\Chapter15-CustomProviders-VB\bin\Chapter15-CustomProviders-VB.pdb
+C:\Users\JasonGaylord\Desktop\311820 ch15 Code\Chapter15\Chapter15-CustomProviders-VB\bin\Chapter15-CustomProviders-VB.xml
+C:\Users\JasonGaylord\Desktop\311820 ch15 Code\Chapter15\Chapter15-CustomProviders-VB\obj\Debug\Chapter15_CustomProviders_VB.Resources.resources
+C:\Users\JasonGaylord\Desktop\311820 ch15 Code\Chapter15\Chapter15-CustomProviders-VB\obj\Debug\Chapter15-CustomProviders-VB.vbproj.GenerateResource.Cache
+C:\Users\JasonGaylord\Desktop\311820 ch15 Code\Chapter15\Chapter15-CustomProviders-VB\obj\Debug\Chapter15-CustomProviders-VB.dll
+C:\Users\JasonGaylord\Desktop\311820 ch15 Code\Chapter15\Chapter15-CustomProviders-VB\obj\Debug\Chapter15-CustomProviders-VB.xml
+C:\Users\JasonGaylord\Desktop\311820 ch15 Code\Chapter15\Chapter15-CustomProviders-VB\obj\Debug\Chapter15-CustomProviders-VB.pdb

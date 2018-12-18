@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="Movies">
+  <DataContextMoniker Name="/MoviesDataContext" />
+  <nestedChildShapes>
+    <classShape Id="465f28ea-3e0d-4533-92b8-214c41552b3e" absoluteBounds="3.5, 0.875, 2, 1.7708968098958333">
+      <DataClassMoniker Name="/MoviesDataContext/Movie" />
+      <nestedChildShapes>
+        <elementListCompartment Id="81d99533-1a58-475f-9f51-38b93b36a4ee" absoluteBounds="3.515, 1.335, 1.9700000000000002, 1.2108968098958333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="3b9aed88-da5e-40ac-81fb-4c6a6f094498" absoluteBounds="0.75, 1.25, 2, 1.1939925130208338">
+      <DataClassMoniker Name="/MoviesDataContext/Genre" />
+      <nestedChildShapes>
+        <elementListCompartment Id="77c490e6-17e1-46c1-a175-440b640b10cd" absoluteBounds="0.765, 1.71, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="6cdcf907-499d-43c2-878d-a17172ecb692" absoluteBounds="0.75, 3.75, 2, 1.7708968098958327">
+      <DataClassMoniker Name="/MoviesDataContext/AllMovies" />
+      <nestedChildShapes>
+        <elementListCompartment Id="2f5642cf-c1b4-4393-9c08-aeb902e9c735" absoluteBounds="0.765, 4.21, 1.9700000000000002, 1.2108968098958333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(2.75 : 1.84699625651042); (3.5 : 1.84699625651042)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/MoviesDataContext/Genre/Genre_Movie" />
+      <nodes>
+        <classShapeMoniker Id="3b9aed88-da5e-40ac-81fb-4c6a6f094498" />
+        <classShapeMoniker Id="465f28ea-3e0d-4533-92b8-214c41552b3e" />
+      </nodes>
+    </associationConnector>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

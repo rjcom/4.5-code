@@ -1,0 +1,21 @@
+<configuration>
+    <connectionStrings>
+        <add name="LocalSqlServer" connectionString="Data Source=127.0.0.1;Integrated Security=SSPI;Initial Catalog=aspnetdb;" />
+    </connectionStrings>
+    <system.web>
+        <roleManager enabled="true" cacheRolesInCookie="true"
+            cookieName=".ASPXROLES" cookieTimeout="30" cookiePath="/"
+            cookieRequireSSL="false" cookieSlidingExpiration="true"
+            cookieProtection="All" defaultProvider="AspNetSqlRoleProvider"
+            createPersistentCookie="false" maxCachedResults="25">
+            <providers>
+                <clear />
+                <add connectionStringName="LocalSqlServer" applicationName="/"
+                    name="AspNetSqlRoleProvider"
+                    type="System.Web.Security.SqlRoleProvider, System.Web,
+                    Version=4.0.0.0, Culture=neutral,
+                    PublicKeyToken=b03f5f7f11d50a3a" />
+            </providers>
+        </roleManager>
+    </system.web>
+</configuration>

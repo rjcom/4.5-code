@@ -1,0 +1,12 @@
+<configuration>
+
+   <system.web>
+
+
+      <urlMappings>
+         <add url="~/Content.aspx" mappedUrl="~/SystemNews.aspx?categoryid=5" />
+      </urlMappings>
+
+   </system.web>
+
+</configuration>

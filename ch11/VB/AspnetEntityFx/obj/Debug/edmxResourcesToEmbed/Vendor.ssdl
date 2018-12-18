@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="AdventureWorks2012_DataModel2.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2008" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityContainer Name="AdventureWorks2012_DataModel2StoreContainer">
+    <EntitySet Name="Vendor" EntityType="AdventureWorks2012_DataModel2.Store.Vendor" store:Type="Tables" Schema="Purchasing" />
+  </EntityContainer>
+  <EntityType Name="Vendor">
+    <Key>
+      <PropertyRef Name="BusinessEntityID" />
+    </Key>
+    <Property Name="BusinessEntityID" Type="int" Nullable="false" />
+    <Property Name="AccountNumber" Type="nvarchar" Nullable="false" MaxLength="15" />
+    <Property Name="Name" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="CreditRating" Type="tinyint" Nullable="false" />
+    <Property Name="PreferredVendorStatus" Type="bit" Nullable="false" />
+    <Property Name="ActiveFlag" Type="bit" Nullable="false" />
+    <Property Name="PurchasingWebServiceURL" Type="nvarchar" MaxLength="1024" />
+    <Property Name="ModifiedDate" Type="datetime" Nullable="false" />
+  </EntityType>
+</Schema>

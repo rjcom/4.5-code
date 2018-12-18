@@ -1,0 +1,10 @@
+C:\Users\pranavra\Dropbox\Docs\aspnet45book\pranav's chapter\appendixB\code\NameComponentCS\obj\Debug\NameComponentCS.csprojResolveAssemblyReference.cache
+C:\Users\pranavra\Dropbox\Docs\aspnet45book\pranav's chapter\appendixB\code\NameComponentCS\bin\Debug\NameComponentCS.dll
+C:\Users\pranavra\Dropbox\Docs\aspnet45book\pranav's chapter\appendixB\code\NameComponentCS\bin\Debug\NameComponentCS.pdb
+C:\Users\pranavra\Dropbox\Docs\aspnet45book\pranav's chapter\appendixB\code\NameComponentCS\obj\Debug\NameComponentCS.dll
+C:\Users\pranavra\Dropbox\Docs\aspnet45book\pranav's chapter\appendixB\code\NameComponentCS\obj\Debug\NameComponentCS.pdb
+C:\Users\pranavra\Downloads\311820 appB Code\NameComponentCS\bin\Debug\NameComponentCS.dll
+C:\Users\pranavra\Downloads\311820 appB Code\NameComponentCS\bin\Debug\NameComponentCS.pdb
+C:\Users\pranavra\Downloads\311820 appB Code\NameComponentCS\obj\Debug\NameComponentCS.csprojResolveAssemblyReference.cache
+C:\Users\pranavra\Downloads\311820 appB Code\NameComponentCS\obj\Debug\NameComponentCS.dll
+C:\Users\pranavra\Downloads\311820 appB Code\NameComponentCS\obj\Debug\NameComponentCS.pdb

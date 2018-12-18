@@ -1,0 +1,22 @@
+<providers>
+    <clear />
+    <add name="EventLogProvider"
+        type="System.Web.Management.EventLogWebEventProvider,
+        System.Web,Version=4.0.0.0,Culture=neutral,
+        PublicKeyToken=b03f5f7f11d50a3a" />
+    <add name="TemplatedMailProvider"
+        type="System.Web.Management.TemplatedMailWebEventProvider,
+        System.Web, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b03f5f7f11d50a3a"
+        template="../mailtemplates/errornotification.aspx"
+        from="website@company.com"
+        to="admin@company.com"
+        cc="adminLevel2@company.com" bcc="director@company.com"
+        bodyHeader="Warning!"
+        bodyFooter="Please investigate ASAP."
+        subjectPrefix="Action required."
+        buffer="true"
+        bufferMode="Website Error Notification"
+        maxEventLength="4096"
+        maxMessagesPerNotification="1" />
+</providers>

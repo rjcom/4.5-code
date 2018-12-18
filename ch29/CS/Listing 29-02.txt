@@ -1,0 +1,3 @@
+TextWriterTraceListener myTextListener = new  
+   TextWriterTraceListener(File.Create(@"c:\myListener.log"));
+Trace.Listeners.Add(myTextListener);

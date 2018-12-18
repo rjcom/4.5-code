@@ -1,0 +1,8 @@
+Protected Sub Application_Error(sender as Object, ByVal e As System.EventArgs)
+    Dim bigError As System.Exception = Server.GetLastError()
+    'Example checking for HttpRequestValidationException
+    If (TypeOf AnError.GetBaseException() Is HttpRequestValidationException) Then
+        System.Diagnostics.Trace.WriteLine(bigError.ToString)
+        Server.ClearError()
+    End If
+End Sub	

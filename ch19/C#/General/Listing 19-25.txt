@@ -1,0 +1,1 @@
+Membership.CreateUser(TextBox1.Text, GeneratePassword());

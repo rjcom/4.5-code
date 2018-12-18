@@ -1,0 +1,8 @@
+<configuration>
+   <system.web>
+
+      <authentication mode="Forms" />
+      <roleManager enabled="true" />
+
+   </system.web>
+</configuration>

@@ -1,0 +1,13 @@
+public void Profile_MigrateAnonymous(object sender, 
+   ProfileMigrateEventArgs e)
+{
+
+        ProfileCommon au = Profile.GetProfile(e.AnonymousID);
+        
+        if (au.MemberDetails.DateJoined != String.Empty) {
+           Profile.MemberDetails.DateJoined = DateTime.Now.ToString();
+           Profile.FamilyDetails.MarriedStatus = au.FamilyDetails.MarriedStatus;
+        }
+
+        AnonymousIdentificationModule.ClearAnonymousIdentifier();
+}

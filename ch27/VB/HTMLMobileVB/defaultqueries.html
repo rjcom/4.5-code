@@ -1,0 +1,64 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Responsive Design Example</title>
+    <meta name="viewport" content="width=device-width" />
+    <style>
+        header{ background-color: #808080; }
+        footer{
+            background-color: #808080;
+            text-align: center;
+            height: 50px;
+        }
+        nav{ text-align:center; }
+        nav a{
+            display: block;
+            padding-left: 10px;
+            padding-right: 10px;
+            color: black;
+        }
+        #content{ padding-left: 10px; }
+        #news{ padding-left: 10px; }
+        @media screen and (min-width: 601px)
+        {
+            footer{ clear: both; }
+            nav a{ display: inline; }
+            #content{
+                border-right: 1px solid black;
+                width: 45%;
+                float: left;
+            }
+            #news{
+                width: 45%;
+                float: left;
+            }
+        }
+        @media screen and (min-width: 901px)
+        {
+            footer{ text-align: left; }
+            nav{ text-align: left; }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">Page 1</a>
+            <a href="#">Page 2</a>
+            <a href="#">About</a>
+        </nav>
+    </header>
+    <div id="content">
+        <h1>Welcome!</h1>
+        Welcome to responsive design example.
+    </div>
+    <div id="news">
+        <h2>News</h2>
+        Breaking news!
+    </div>
+    <footer>
+        Copyright &copy; Examples By U
+    </footer>
+</body>
+</html>

@@ -1,0 +1,13 @@
+Imports System
+Imports System.Web.Management
+
+Namespace Wrox
+    Public Class WroxEvent
+       Inherits WebBaseEvent
+
+        Public Const WroxEventCode As Integer = WebEventCodes.WebExtendedBase + 1
+        Public Sub New(ByVal message As String, ByVal eventSource As Object)
+            MyBase.New(message, eventSource, WroxEventCode)
+        End Sub
+    End Class
+End Namespace

@@ -1,0 +1,10 @@
+<properties>
+
+   <add name="FirstName" type="System.String" />
+   <add name="LastName" type="System.String" />
+   <add name="LastVisited" type="System.DateTime" />
+   <add name="Age" type="System.Int32" />
+   <add name="Member" type="System.Boolean" />
+   <add name="Cart" type="ShoppingCart" serializeAs="Binary" />
+
+</properties>

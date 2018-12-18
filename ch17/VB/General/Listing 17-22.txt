@@ -1,0 +1,3 @@
+<asp:Menu ID="Menu1" Runat="server" DataSourceID="SiteMapDataSource1"
+ DynamicBottomSeparatorImageUrl="Images/myDivider.png">
+</asp:Menu>

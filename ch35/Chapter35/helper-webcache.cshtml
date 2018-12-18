@@ -1,0 +1,20 @@
+﻿@{
+    var toCache = WebCache.Get("cacheTimestamp");
+    
+    if (toCache == null) {
+        toCache = DateTime.Now;
+        WebCache.Set("cacheTimestamp",toCache,1,false);
+    }
+}
+
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title></title>
+    </head>
+    <body>
+        @toCache
+    </body>
+</html>

@@ -1,0 +1,7 @@
+<configuration>
+  <system.web>
+
+       <anonymousIdentification enabled="true" />
+
+  </system.web>
+</configuration>

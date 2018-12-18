@@ -1,0 +1,14 @@
+<configuration>
+   <system.web>
+
+      <siteMap>
+        <providers>
+          <clear />
+          <add siteMapFile="web.sitemap" name="AspNetXmlSiteMapProvider"
+              type="System.Web.XmlSiteMapProvider, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a"
+              securityTrimmingEnabled="true" />
+        </providers>
+      </siteMap>
+
+   </system.web>
+</configuration>

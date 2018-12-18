@@ -1,0 +1,9 @@
+<configuration>
+  <system.web>
+
+       <anonymousIdentification
+           enabled="true"
+           cookieTimeout="1440" />
+		   
+  </system.web>
+</configuration>

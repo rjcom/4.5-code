@@ -1,0 +1,12 @@
+<%@ Master Language="VB" %>
+
+<script runat="server" language="vb">    
+    Public Property MasterPageLabel1() As Label
+        Get
+            Return Label1
+        End Get
+        Set(ByVal Value As Label)
+            Label1 = Value
+        End Set
+    End Property
+</script>

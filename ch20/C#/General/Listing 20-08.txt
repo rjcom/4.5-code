@@ -1,0 +1,5 @@
+<forms name="Wrox" loginUrl="Login.aspx" path="/">
+   <credentials passwordFormat="SHA1">
+      <user name="Christian" password="58356FB4CAC0B801F011B397F9DFF45ADB863892" />
+   </credentials>
+</forms>

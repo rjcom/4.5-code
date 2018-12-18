@@ -1,0 +1,5 @@
+﻿SqlCacheDependency myDependency = new SqlCacheDependency("Northwind", "Customers");
+Response.AddCacheDependency(myDependency);
+Response.Cache.SetValidUntilExpires(true);
+Response.Cache.SetExpires(DateTime.Now.AddMinutes(60));
+Response.Cache.SetCacheability(HttpCacheability.Public);

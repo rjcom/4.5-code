@@ -1,0 +1,26 @@
+﻿<?xml version='1.0'?>
+<ourmenu>
+    <food>
+        <name>Bacon</name>
+        <price>$2.95</price>
+        <description>
+            The most popular meat among developers.
+        </description>
+    </food>
+    <food>
+        <name>Buffalo Wings</name>
+        <price>$6.95</price>
+        <description>
+            A dozen of the spiciest hot wings 
+            that you'll ever eat. Individuals
+            that order must sign a waiver.
+        </description>
+    </food>
+    <food>
+        <name>Soda Pop</name>
+        <price>$1.95</price>
+        <description>
+            Soda that goes pop.
+        </description>
+    </food>
+</ourmenu>

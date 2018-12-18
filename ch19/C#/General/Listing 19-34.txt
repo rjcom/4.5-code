@@ -1,0 +1,4 @@
+if (Roles.IsUserInRole(TextBox1.Text, "AdminPageRights")) 
+{
+   // perform action here
+}

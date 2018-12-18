@@ -1,0 +1,6 @@
+<system.web>
+   <authentication mode="Windows" />
+   <authorization>
+      <deny users="*" />
+   </authorization>
+</system.web>

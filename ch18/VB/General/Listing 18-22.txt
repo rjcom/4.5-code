@@ -1,0 +1,50 @@
+﻿Imports System.Web.Profile
+Imports System.Web.Security
+
+Namespace Wrox
+    Public Class UserProfile
+        Inherits ProfileBase
+
+        Public Shared Function GetUserProfile(username As String) As UserProfile
+            Return CType(Create(username), UserProfile)
+        End Function
+
+        Public Shared Function GetUserProfile() As UserProfile
+            Return CType(Create(Membership.GetUser().UserName), UserProfile)
+        End Function
+
+        <SettingsAllowAnonymous(False)> _
+        Public Property FirstName() As String
+            Get
+                Return MyBase.GetPropertyValue("FirstName").ToString()
+            End Get
+
+            Set(value As String)
+                MyBase.SetPropertyValue("FirstName", value)
+            End Set
+        End Property
+
+        <SettingsAllowAnonymous(False)> _
+        Public Property LastName() As String
+            Get
+                Return MyBase.GetPropertyValue("LastName").ToString()
+            End Get
+
+            Set(value As String)
+                MyBase.SetPropertyValue("LastName", value)
+            End Set
+        End Property
+
+        <SettingsAllowAnonymous(True)>
+        Public Property LastVisited() As DateTime
+            Get
+                Return CType(MyBase.GetPropertyValue("LastVisited"), DateTime)
+            End Get
+
+            Set(value As DateTime)
+                MyBase.SetPropertyValue("LastVisited", value)
+            End Set
+        End Property
+
+    End Class
+End Namespace

@@ -1,0 +1,16 @@
+<configuration>
+    <system.web>
+        <healthMonitoring>
+            <!-- Other nodes removed for clarity -->
+            <providers>
+                <clear />
+                <add name="SqlWebEventProvider"
+                    type="System.Web.Management.SqlWebEventProvider,System.Web"
+                    connectionStringName="LocalSqlServer"
+                    maxEventDetailsLength="1073741823"
+                    buffer="true"
+                    bufferMode="SQL Analysis" />
+            </providers>
+        </healthMonitoring>
+    </system.web>
+</configuration>

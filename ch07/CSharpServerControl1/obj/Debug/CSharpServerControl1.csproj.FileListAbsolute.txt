@@ -1,0 +1,5 @@
+C:\Users\JasonGaylord\Documents\Visual Studio 2012\Projects\Chapter07-CS\CSharpServerControl1\bin\Debug\CSharpServerControl1.dll
+C:\Users\JasonGaylord\Documents\Visual Studio 2012\Projects\Chapter07-CS\CSharpServerControl1\bin\Debug\CSharpServerControl1.pdb
+C:\Users\JasonGaylord\Documents\Visual Studio 2012\Projects\Chapter07-CS\CSharpServerControl1\obj\Debug\CSharpServerControl1.dll
+C:\Users\JasonGaylord\Documents\Visual Studio 2012\Projects\Chapter07-CS\CSharpServerControl1\obj\Debug\CSharpServerControl1.pdb
+C:\Users\JasonGaylord\Documents\Visual Studio 2012\Projects\Chapter07-CS\CSharpServerControl1\bin\Debug\Listing07-21.js

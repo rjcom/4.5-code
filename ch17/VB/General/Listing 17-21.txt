@@ -1,0 +1,4 @@
+<asp:Menu ID="Menu1" Runat="server" DataSourceID="SiteMapDataSource1"
+ Orientation="Horizontal" DynamicPopOutImageUrl="Images/myArrow.png"
+ StaticPopOutImageUrl="Images/myArrow.png">
+</asp:Menu>

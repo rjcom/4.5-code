@@ -1,0 +1,9 @@
+C:\Users\JasonGaylord\Documents\Visual Studio 2012\Projects\Chapter07-CS\VbServerControl1\bin\Debug\VbServerControl1.dll
+C:\Users\JasonGaylord\Documents\Visual Studio 2012\Projects\Chapter07-CS\VbServerControl1\bin\Debug\VbServerControl1.pdb
+C:\Users\JasonGaylord\Documents\Visual Studio 2012\Projects\Chapter07-CS\VbServerControl1\bin\Debug\VbServerControl1.xml
+C:\Users\JasonGaylord\Documents\Visual Studio 2012\Projects\Chapter07-CS\VbServerControl1\obj\Debug\VbServerControl1.Resources.resources
+C:\Users\JasonGaylord\Documents\Visual Studio 2012\Projects\Chapter07-CS\VbServerControl1\obj\Debug\VbServerControl1.vbproj.GenerateResource.Cache
+C:\Users\JasonGaylord\Documents\Visual Studio 2012\Projects\Chapter07-CS\VbServerControl1\obj\Debug\VbServerControl1.dll
+C:\Users\JasonGaylord\Documents\Visual Studio 2012\Projects\Chapter07-CS\VbServerControl1\obj\Debug\VbServerControl1.xml
+C:\Users\JasonGaylord\Documents\Visual Studio 2012\Projects\Chapter07-CS\VbServerControl1\obj\Debug\VbServerControl1.pdb
+C:\Users\JasonGaylord\Documents\Visual Studio 2012\Projects\Chapter07-CS\VbServerControl1\bin\Debug\Listing07-21.js

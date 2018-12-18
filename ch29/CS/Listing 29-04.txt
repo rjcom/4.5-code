@@ -1,0 +1,12 @@
+namespace Wrox
+{
+    using System;
+    using System.Web.Management;
+
+    public class WroxEvent: WebBaseEvent
+    {
+        public const int WroxEventCode = WebEventCodes.WebExtendedBase + 1;
+        public WroxEvent(string message, object eventSource) : 
+             base(message, eventSource, WroxEventCode){}
+    }
+}

@@ -1,0 +1,7 @@
+Protected Sub TreeView1_DataBound(ByVal sender As Object, _
+  ByVal e As System.EventArgs)
+   TreeView1.CollapseAll()
+   TreeView1.FindNode("Home").Expanded = True
+   TreeView1.FindNode("Home/Finance").Expanded = True
+   TreeView1.FindNode("Home/Finance/Markets").Expanded = True
+End Sub

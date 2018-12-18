@@ -1,0 +1,15 @@
+<%@ Master Language="C#" %>
+
+<script runat="server" language="C#">    
+    public Label MasterPageLabel
+    {
+        get
+        {
+            return Label1;
+        }
+        set
+        {
+            Label1 = value; 
+        }
+    } 
+</script>

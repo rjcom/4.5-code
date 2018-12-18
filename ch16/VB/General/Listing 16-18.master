@@ -1,0 +1,15 @@
+<%@ Master Language="VB" MasterPageFile="~/Listing 16-17.master" %>
+
+<asp:Content ID="Content1" ContentPlaceHolderID="head" Runat="Server">
+</asp:Content>
+
+<asp:Content ID="Content2" ContentPlaceHolderId="ContentPlaceHolder1" 
+ runat="server">
+    <asp:Label ID="Label1" runat="server" BackColor="#E0E0E0" BorderColor="Black" 
+     BorderStyle="Dotted" BorderWidth="2px" Font-Size="Large">
+     Reuters Europe </asp:Label><br /><hr />
+
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        </asp:ContentPlaceHolder>
+</asp:Content>
+

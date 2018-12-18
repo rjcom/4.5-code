@@ -1,0 +1,9 @@
+<configuration>
+
+    <location path="AdministrationArea">
+        <system.web>
+           <pages masterPageFile="~/WroxAdmin.master" />
+        </system.web>
+    </location>
+
+</configuration>

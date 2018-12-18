@@ -1,0 +1,9 @@
+<configuration>
+ <system.diagnostics>
+  <switches>
+   <add name="ImportantSwitch" value="1" /> <!-- This is for the BooleanSwitch -->
+   <add name="LevelSwitch" value="3" />     <!-- This is for the TraceSwitch -->
+   <add name="SourceSwitch" value="4" />    <!-- This is for the SourceSwitch -->
+  </switches>
+ </system.diagnostics>
+</configuration>

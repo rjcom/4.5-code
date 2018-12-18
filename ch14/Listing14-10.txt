@@ -1,0 +1,6 @@
+<configuration>
+    <connectionStrings>
+        <add name="LocalPolicyStore"
+             connectionString="msxml://~\App_Data\SampleStore.xml" />
+    </connectionStrings>
+</configuration>

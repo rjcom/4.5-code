@@ -1,0 +1,36 @@
+<%@ Page Language="VB" %>
+<%@ Import Namespace="System.Data" %>
+<%@ Import Namespace="System.Data.SqlClient" %>
+
+<script runat="server">
+    Protected Sub Button1_Click(ByVal sender As Object, ByVal e As System.EventArgs)
+
+       Dim conn As SqlConnection
+       Dim cmd As SqlCommand
+       Dim cmdString As String = "SELECT [Password] FROM [AccessTable] WHERE" & 
+          " (([Username] = @Username) AND ([Password] = @Password))"
+        
+       conn = New SqlConnection("Data Source=.\SQLEXPRESS;Initial " & 
+          "Catalog=Northwind;Persist Security Info=True;User ID=sa")
+       cmd = New SqlCommand(cmdString, conn)
+        
+       cmd.Parameters.Add("@Username", SqlDbType.VarChar, 50)
+       cmd.Parameters("@Username").Value = tbUsername.Text
+       cmd.Parameters.Add("@Password", SqlDbType.VarChar, 50)
+       cmd.Parameters("@Password").Value = tbPassword.Text
+        
+       conn.Open()
+        
+       Dim myReader As SqlDataReader
+        
+       myReader = cmd.ExecuteReader(CommandBehavior.CloseConnection)
+        
+       If myReader.Read() Then
+          FormsAuthentication.RedirectFromLoginPage(tbUsername.Text, False)
+       Else
+          Response.Write("Invalid credentials")
+       End If
+        
+       myReader.Close()    
+   End Sub
+</script>

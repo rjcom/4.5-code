@@ -1,0 +1,9 @@
+<properties>
+
+   <add name="FirstName" type="System.String" />
+   <add name="LastName" type="System.String" />
+   <add name="LastVisited" type="System.DateTime" allowAnonymous="true" />
+   <add name="Age" type="System.Integer" />
+   <add name="Member" type="System.Boolean" />
+
+</properties>

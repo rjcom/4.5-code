@@ -1,0 +1,9 @@
+protected void DeleteButton_Click(object sender, EventArgs e)
+{
+   foreach (ListItem li in ListBox1.Items) {
+      if (li.Selected == true) {
+         Roles.DeleteRole(li.ToString());
+      }
+   }
+   ListBoxDataBind();
+}

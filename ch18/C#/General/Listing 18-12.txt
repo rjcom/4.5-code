@@ -1,0 +1,9 @@
+ <configuration>
+  <system.web>
+
+       <anonymousIdentification
+           enabled="true"
+           cookieName=".ASPXWenzWebApplication" />
+
+  </system.web>
+</configuration>

@@ -1,0 +1,5 @@
+C:\projects\wiley\311820 Apndx E Code\DynamicRest\DynamicRest\bin\Debug\DynamicRest.dll
+C:\projects\wiley\311820 Apndx E Code\DynamicRest\DynamicRest\bin\Debug\DynamicRest.pdb
+C:\projects\wiley\311820 Apndx E Code\DynamicRest\DynamicRest\obj\Debug\DynamicRest.csprojResolveAssemblyReference.cache
+C:\projects\wiley\311820 Apndx E Code\DynamicRest\DynamicRest\obj\Debug\DynamicRest.dll
+C:\projects\wiley\311820 Apndx E Code\DynamicRest\DynamicRest\obj\Debug\DynamicRest.pdb

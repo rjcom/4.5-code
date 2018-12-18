@@ -1,0 +1,14 @@
+Web.config
+
+<configuration>
+    <system.web>
+        <trace enabled="true" pageOutput="true" />
+    </system.web>
+</configuration>
+
+VB
+
+Protected Sub Page_Load(ByVal sender As Object, ByVal e As System.EventArgs)
+    Handles Me.Load 'All on one line!
+        Trace.Write("This message is from the START OF the Page_Load method!")
+End Sub

@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Chapter06-CS", "http://localhost:42604", "{5A36999E-C715-4FF1-9B73-D796CF6B2B14}"
+	ProjectSection(WebsiteProperties) = preProject
+		UseIISExpress = "true"
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.5"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_42604"
+		Debug.AspNetCompiler.PhysicalPath = "..\..\WebSites\Chapter06-CS\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_42604\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_42604"
+		Release.AspNetCompiler.PhysicalPath = "..\..\WebSites\Chapter06-CS\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_42604\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		SlnRelativePath = "..\..\WebSites\Chapter06-CS\"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Chapter06-VB", "http://localhost:42605", "{1462EA57-F469-4188-BFC1-EDB338592B07}"
+	ProjectSection(WebsiteProperties) = preProject
+		UseIISExpress = "true"
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.5"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_42605"
+		Debug.AspNetCompiler.PhysicalPath = "..\..\WebSites\Chapter06-VB\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_42605\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_42605"
+		Release.AspNetCompiler.PhysicalPath = "..\..\WebSites\Chapter06-VB\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_42605\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		SlnRelativePath = "..\..\WebSites\Chapter06-VB\"
+		DefaultWebSiteLanguage = "Visual Basic"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5A36999E-C715-4FF1-9B73-D796CF6B2B14}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A36999E-C715-4FF1-9B73-D796CF6B2B14}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1462EA57-F469-4188-BFC1-EDB338592B07}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1462EA57-F469-4188-BFC1-EDB338592B07}.Debug|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

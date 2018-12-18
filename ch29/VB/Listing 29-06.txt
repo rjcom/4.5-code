@@ -1,0 +1,9 @@
+Protected Overrides Sub OnError(ByVal e As System.EventArgs)
+    Dim AnError As System.Exception = Server.GetLastError()
+    If (TypeOf AnError.GetBaseException() Is SomeSpecificException) Then
+        Response.Write("Something bad happened!")
+        Response.StatusCode = 200
+        Server.ClearError()
+        Response.End()
+    End If
+End Sub

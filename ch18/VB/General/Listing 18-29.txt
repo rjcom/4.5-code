@@ -1,0 +1,12 @@
+﻿<configuration>
+    <connectionstrings>
+        <add providername="System.Data.SqlClient" connectionstring="Data Source=.\SQLEXPRESS;AttachDbFilename=|DataDirectory|\aspnet.mdf;Initial Catalog=aspnet;Integrated Security=True;User Instance=True;MultipleActiveResultSets=True" name="DefaultConnection" />
+    </connectionstrings>
+    <system.web>
+      <profile defaultprovider="DefaultProfileProvider">
+        <providers>
+          <add type="System.Web.Providers.DefaultProfileProvider" name="DefaultProfileProvider" applicationname="/" connectionstringname="DefaultConnection" />
+       </providers>
+      </profile>
+	</system.web>
+</configuration>

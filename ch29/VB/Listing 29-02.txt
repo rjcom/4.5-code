@@ -1,0 +1,2 @@
+Dim myTextListener As New TextWriterTraceListener(File.Create("c:\myListener.log"))
+Trace.Listeners.Add(myTextListener)

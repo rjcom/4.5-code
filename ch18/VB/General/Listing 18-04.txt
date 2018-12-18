@@ -1,0 +1,34 @@
+<configuration>
+  <system.web>
+
+     <profile>
+
+        <properties>
+
+           <add name="FirstName" />
+           <add name="LastName" />
+           <add name="LastVisited" />
+           <add name="Age" />
+
+           <group name="MemberDetails">
+              <add name="Member" />
+              <add name="DateJoined" />
+              <add name="PaidDuesStatus" />
+              <add name="Location" />
+           </group>
+
+           <group name="FamilyDetails">
+              <add name="MarriedStatus" />
+              <add name="DateMarried" />
+              <add name="NumberChildren" />
+              <add name="Location" />
+           </group>
+
+        </properties>
+
+    </profile>
+
+    <authentication mode="Windows" />
+
+  </system.web>
+</configuration>

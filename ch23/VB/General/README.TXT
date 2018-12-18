@@ -1,0 +1,1 @@
+Make sure you read the instructions in the accompanying book chapter and add references to the Ajax Control Toolkit and the ScriptReferenceProfiler control (both not part of this code package).

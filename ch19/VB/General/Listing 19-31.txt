@@ -1,0 +1,10 @@
+Protected Sub DeleteButton_Click(ByVal sender As Object, _
+   ByVal e As System.EventArgs)
+
+   For Each li As ListItem In ListBox1.Items
+      If li.Selected = True Then
+         Roles.DeleteRole(li.ToString())
+      End If
+   Next
+   ListBoxDataBind()
+End Sub

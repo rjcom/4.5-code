@@ -1,0 +1,9 @@
+<configuration>
+  <system.web>
+
+       <anonymousIdentification enabled="true" />
+
+       <authentication mode="Forms" />
+
+  </system.web>
+</configuration>

@@ -1,0 +1,30 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Attribute Value Selectors in CSS3</title>
+    <style type="text/css">
+a {
+        padding-left: 16px;
+}
+div a[href^="https://"] {
+    background-image: url(lock-icon.png); 
+    background-repeat: no-repeat;
+    background-position: left;
+}
+    </style>
+</head>
+<body>
+    <div>
+        <a href="http://www.microsoft.com/">Microsoft.com</a>
+    </div>
+    <div>
+        <a href="https://www.microsoft.com/">Microsoft.com (secured)</a>
+    </div>
+    <div>    
+        <a href="http://msdn.microsoft.com/">MSDN</a>
+    </div>
+    <div>
+        <a href="https://msdn.microsoft.com/">MSDN (secured)</a>
+    </div>
+</body>
+</html>

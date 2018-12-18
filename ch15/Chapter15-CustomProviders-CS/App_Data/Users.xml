@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Users>
+    <User>
+        <Username>JasonGaylord</Username>
+        <Password>Reindeer</Password>
+        <Email>jason@jasongaylord.com</Email>
+        <DateCreated>12/10/2012</DateCreated>
+    </User>
+    <User>
+        <Username>ScottHanselman</Username>
+        <Password>YabbaDabbaDo</Password>
+        <Email>scott@outlook.com</Email>
+        <DateCreated>12/02/2012</DateCreated>
+    </User>
+    <User>
+        <Username>ChristianWenz</Username>
+        <Password>BamBam</Password>
+        <Email>christian@outlook.com</Email>
+        <DateCreated>01/11/2013</DateCreated>
+    </User>
+</Users>

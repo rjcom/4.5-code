@@ -1,0 +1,8 @@
+<%@ Page Language="VB" MasterPageFile="~/Wrox.master" %>
+<%@ MasterType VirtualPath="~/Wrox.master" %>
+
+<script runat="server" language="vb">    
+    Protected Sub Page_Load(ByVal sender As Object, ByVal e As System.EventArgs)
+        Master.MasterPageLabel1.Font.Size = 25
+    End Sub
+</script>

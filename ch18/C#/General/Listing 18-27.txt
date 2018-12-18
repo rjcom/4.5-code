@@ -1,0 +1,8 @@
+<configuration>
+  <system.web>
+
+     <profile enabled="true" defaultProvider="AspNetSql2012ProfileProvider">
+      </profile>
+
+  </system.web>
+</configuration>

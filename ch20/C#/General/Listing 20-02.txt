@@ -1,0 +1,7 @@
+<system.web>
+   <authentication mode="Windows" />
+   <authorization>
+      <allow users="Win8Pro-En\Bubbles" />
+      <deny users="*" />
+   </authorization>
+</system.web>

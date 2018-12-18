@@ -1,0 +1,54 @@
+<configuration>
+    <system.web>
+        <healthMonitoring heartbeatInterval="0" enabled="true">
+            <bufferModes>
+                <add name="Website Error Notification"
+                    maxBufferSize="100"
+                    maxFlushSize="20"
+                    urgentFlushThreshold="1"
+                    regularFlushInterval="00:01:00"
+                    urgentFlushInterval="00:01:00"
+                    maxBufferThreads="1" />
+            </bufferModes>
+            <providers>
+                <clear />
+                <add name="EventLogProvider"
+                    type="System.Web.Management.EventLogWebEventProvider,
+                    System.Web,Version=4.0.0.0,Culture=neutral,
+                    PublicKeyToken=b03f5f7f11d50a3a" />
+                <add name="SimpleMailProvider"
+                    type="System.Web.Management.SimpleMailWebEventProvider,
+                    System.Web, Version=4.0.0.0, Culture=neutral,
+                    PublicKeyToken=b03f5f7f11d50a3a"
+                    from="website@company.com"
+                    to="admin@company.com"
+                    cc="adminLevel2@company.com" bcc="director@company.com"
+                    bodyHeader="Warning!"
+                    bodyFooter="Please investigate ASAP."
+                    subjectPrefix="Action required."
+                    buffer="true"
+                    bufferMode="Website Error Notification"
+                    maxEventLength="4096"
+                    maxMessagesPerNotification="1" />
+            </providers>
+            <profiles>
+                <!-- Removed for clarity -->
+            </profiles>
+            <rules>
+                <add name="All Errors Default" eventName="All Errors"
+                    provider="EventLogProvider" profile="Default" minInstances="1"
+                    maxLimit="Infinite" minInterval="00:01:00" custom="" />
+                <add name="Failure Audits Default" eventName="Failure Audits"
+                    provider="EventLogProvider" profile="Default" minInstances="1"
+                    maxLimit="Infinite" minInterval="00:01:00" custom="" />
+                <add name="All Errors Simple Mail" eventName="All Errors"
+                    provider="SimpleMailProvider" profile="Default" />
+                <add name="Failure Audits Default" eventName="Failure Audits"
+                    provider="SimpleMailProvider" profile="Default" />
+            </rules>
+            <eventMappings>
+                <!-- Removed for clarity -->
+            </eventMappings>
+        </healthMonitoring>
+    </system.web>
+</configuration>

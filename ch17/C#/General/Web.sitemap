@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+  <siteMapNode title="Home" description="Home Page" url="Default.aspx">
+    <siteMapNode title="News" description="The Latest News" url="News.aspx">
+      <siteMapNode title="U.S." description="U.S. News"
+       url="News.aspx?cat=us" />
+      <siteMapNode title="World" description="World News"
+       url="News.aspx?cat=world" />
+      <siteMapNode title="Technology" description="Technology News"
+       url="News.aspx?cat=tech" />
+      <siteMapNode title="Sports" description="Sports News"
+       url="News.aspx?cat=sport" />
+    </siteMapNode>
+    <siteMapNode title="Finance" description="The Latest Financial Information"
+      url="Finance.aspx">
+      <siteMapNode title="Quotes" description="Get the Latest Quotes"
+       url="Quotes.aspx" />
+      <siteMapNode title="Markets" description="The Latest Market Information"
+       url="Markets.aspx">
+        <siteMapNode title="U.S. Market Report"
+         description="Looking at the U.S. Market" url="MarketsUS.aspx" />
+        <siteMapNode title="NYSE"
+         description="The New York Stock Exchange" url="NYSE.aspx" />
+      </siteMapNode>
+      <siteMapNode title="Funds" description="Mutual Funds"
+       url="Funds.aspx" />
+    </siteMapNode>
+    <siteMapNode title="Weather" description="The Latest Weather"
+     url="Weather.aspx" />
+    <!--
+      node for security trimming
+    <siteMapNode title="Administration" description="The Administrators page"
+                 url="AdminOnly.aspx" roles="Admin" />
+    -->
+    <!--
+      node for nested sitemap
+    <siteMapNode siteMapFile="Listing 17-37.sitemap" />
+    -->
+  </siteMapNode>
+</siteMap>
+
+<!-- sitemap for globalization
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0"
+ enableLocalization="true">
+  <siteMapNode url="Default.aspx" resourceKey="Home">
+    <siteMapNode url="News.aspx" resourceKey="News">
+      <siteMapNode url="News.aspx?cat=us" resourceKey="NewsUS" />
+      <siteMapNode url="News.aspx?cat=world" resourceKey="NewsWorld" />
+      <siteMapNode url="News.aspx?cat=tech" resourceKey="NewsTech" />
+      <siteMapNode url="News.aspx?cat=sport" resourceKey="NewsSport" />
+    </siteMapNode>
+  </siteMapNode>
+</siteMap>
+-->

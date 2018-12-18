@@ -1,0 +1,5 @@
+<configuration>
+   <system.web>
+      <pages masterPageFile="~/Wrox.master" />
+   </system.web>
+</configuration>

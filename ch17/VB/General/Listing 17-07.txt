@@ -1,0 +1,11 @@
+<asp:TreeView ID="TreeView1" runat="server" DataSourceID="SiteMapDataSource1" 
+ ImageSet="Msdn" NodeIndent="10">
+   <ParentNodeStyle Font-Bold="False" />
+   <HoverNodeStyle BackColor="#CCCCCC" BorderColor="#888888" BorderStyle="Solid" 
+    Font-Underline="True" />
+   <SelectedNodeStyle BackColor="White" BorderColor="#888888" BorderStyle="Solid" 
+    BorderWidth="1px" Font-Underline="False" HorizontalPadding="3px" 
+    VerticalPadding="1px" />
+   <NodeStyle Font-Names="Verdana" Font-Size="8pt" ForeColor="Black" 
+    HorizontalPadding="5px" NodeSpacing="1px" VerticalPadding="2px" />
+</asp:TreeView>

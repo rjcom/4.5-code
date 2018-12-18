@@ -1,0 +1,25 @@
+﻿@{
+    // Set the common WebMail properties
+    WebMail.SmtpServer = "SMTP Server";
+    WebMail.SmtpPort = 25;
+    WebMail.UserName = "Username";
+    WebMail.Password = "Password";
+    WebMail.From = "From Email Address";
+
+    // Send the email
+    WebMail.Send(to: "To Email Address",
+                 subject: "Subject", 
+                 body: "<strong>Body</strong>");
+}
+
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title></title>
+    </head>
+    <body>
+        
+    </body>
+</html>

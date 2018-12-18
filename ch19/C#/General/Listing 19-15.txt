@@ -1,0 +1,6 @@
+if (Membership.ValidateUser(TextBox1.Text, TextBox2.Text)) {
+   FormsAuthentication.RedirectFromLoginPage(TextBox1.Text, false);
+}
+else {
+   Label1.Text = "You are not registered with the site.";
+}

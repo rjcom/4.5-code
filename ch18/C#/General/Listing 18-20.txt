@@ -1,0 +1,13 @@
+     <profile automaticSaveEnabled="False">
+
+        <properties>
+
+           <add name="FirstName" />
+           <add name="LastName" />
+           <add name="LastVisited" />
+           <add name="Age" />
+           <add name="Member" />
+
+        </properties>
+
+      </profile>

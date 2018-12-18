@@ -1,0 +1,2 @@
+﻿Install-Package DotNetOpenAuth.AspNet
+Install-Package Microsoft.AspNet.Membership.OpenAuth

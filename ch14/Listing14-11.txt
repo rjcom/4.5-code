@@ -1,0 +1,29 @@
+<configuration>
+    <connectionStrings>
+        <add name="MyLocalPolicyStore"
+            connectionString="msxml://~\App_Data\datafilename.xml" />
+    </connectionStrings>
+    <system.web>
+        <authentication mode="Windows" />
+        <identity impersonate="true" />
+        <roleManager defaultProvider="AuthorizationStoreRoleProvider"
+            enabled="true"
+            cacheRolesInCookie="true"
+            cookieName=".ASPROLES"
+            cookieTimeout="30"
+            cookiePath="/"
+            cookieRequireSSL="false"
+            cookieSlidingExpiration="true"
+            cookieProtection="All" >
+            <providers>
+                <clear />
+                <add name="AuthorizationStoreRoleProvider"
+                    type="System.Web.Security.AuthorizationStoreRoleProvider"
+                    connectionStringName="MyLocalPolicyStore"
+                    applicationName="SampleApplication"
+                    cacheRefreshInterval="60"
+                    scopeName="" />
+            </providers>
+        </roleManager>
+    </system.web>
+</configuration>

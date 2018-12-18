@@ -1,0 +1,37 @@
+<%@ Page Language="C#"%>
+<%@ Import Namespace="System.Data" %>
+<%@ Import Namespace="System.Data.SqlClient" %>
+
+<script runat="server">
+    protected void Button1_Click(object sender, EventArgs e)
+    {
+       SqlConnection conn;
+       SqlCommand cmd;
+       string cmdString = @"SELECT [Password] FROM [AccessTable] WHERE
+          (([Username] = @Username) AND ([Password] = @Password))";
+        
+       conn = new SqlConnection(@"Data Source=.\SQLEXPRESS;Initial 
+          Catalog=Northwind;Persist Security Info=True;User ID=sa");
+       cmd = new SqlCommand(cmdString, conn);
+        
+       cmd.Parameters.Add("@Username", SqlDbType.VarChar, 50);
+       cmd.Parameters["@Username"].Value = tbUsername.Text;
+       cmd.Parameters.Add("@Password", SqlDbType.VarChar, 50);
+       cmd.Parameters["@Password"].Value = tbPassword.Text;
+        
+       conn.Open();
+        
+       SqlDataReader myReader;
+        
+       myReader = cmd.ExecuteReader(CommandBehavior.CloseConnection);
+        
+       if (myReader.Read()) {
+          FormsAuthentication.RedirectFromLoginPage(tbUsername.Text, false);
+       }
+       else {
+          Response.Write("Invalid credentials");
+       }
+        
+       myReader.Close(); 
+    }
+</script>

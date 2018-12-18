@@ -1,0 +1,6 @@
+Protected Function GeneratePassword() As String
+   Dim returnPassword As String
+   returnPassword = Membership.GeneratePassword(10, 3)
+        
+   Return returnPassword
+End Function

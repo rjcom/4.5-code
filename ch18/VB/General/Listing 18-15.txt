@@ -1,0 +1,5 @@
+Public Sub AnonymousIdentification_Creating(ByVal sender As Object, ByVal e As AnonymousIDentificationEventArgs)
+
+        e.AnonymousID = "Bubbles " & DateTime.Now()
+
+End Sub

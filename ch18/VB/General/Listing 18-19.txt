@@ -1,0 +1,17 @@
+Public Sub Profile_Personalize(sender As Object, args As ProfileEventArgs)
+  Dim checkedProfile As ProfileCommon
+
+  If User Is Nothing Then Return
+
+  checkedProfile = CType(ProfileBase.Create(User.Identity.Name), ProfileCommon)
+
+  If (Date.Now.IsDaylightSavingTime()) Then
+    checkedProfile = checkedProfile.GetProfile("TimeDifferenceUser")
+  Else
+    checkedProfile = checkedProfile.GetProfile("TimeUser")
+  End If
+
+  If Not checkedProfile Is Nothing Then
+    args.Profile = checkedProfile
+  End If
+End Sub

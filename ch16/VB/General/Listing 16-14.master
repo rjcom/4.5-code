@@ -1,0 +1,19 @@
+<%@ Master Language="VB" %>
+
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head id="Head1" runat="server">
+    <title>My Company</title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" Runat="server">
+        Here is some default content
+        </asp:ContentPlaceHolder><p>
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder2" Runat="server">
+        Here is some more default content
+        </asp:ContentPlaceHolder></p>
+    </form>
+</body>
+</html>

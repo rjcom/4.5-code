@@ -1,0 +1,241 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Movies>
+  <Movie>
+    <Title>Shrek</Title>
+    <Director>Andrew Adamson</Director>
+    <Genre>0</Genre>
+    <ReleaseDate>5/16/2001</ReleaseDate>
+    <RunTime>89</RunTime>
+  </Movie>
+  <Movie>
+    <Title>Fletch</Title>
+    <Director>Michael Ritchie</Director>
+    <Genre>0</Genre>
+    <ReleaseDate>5/31/1985</ReleaseDate>
+    <RunTime>96</RunTime>
+  </Movie>
+  <Movie>
+    <Title>Casablanca</Title>
+    <Director>Michael Curtiz</Director>
+    <Genre>1</Genre>
+    <ReleaseDate>1/1/1942</ReleaseDate>
+    <RunTime>102</RunTime>
+  </Movie>
+  <Movie>
+    <Title>Batman</Title>
+    <Director>Tim Burton</Director>
+    <Genre>1</Genre>
+    <ReleaseDate>6/23/1989</ReleaseDate>
+    <RunTime>126</RunTime>
+  </Movie>
+  <Movie>
+    <Title>Dances with Wolves</Title>
+    <Director>Kevin Costner</Director>
+    <Genre>1</Genre>
+    <ReleaseDate>11/21/1990</ReleaseDate>
+    <RunTime>180</RunTime>
+  </Movie>
+  <Movie>
+    <Title>Dirty Dancing</Title>
+    <Director>Emile Ardolino</Director>
+    <Genre>1</Genre>
+    <ReleaseDate>8/21/1987</ReleaseDate>
+    <RunTime>100</RunTime>
+  </Movie>
+  <Movie>
+    <Title>The Parent Trap</Title>
+    <Director>Nancy Meyers</Director>
+    <Genre>0</Genre>
+    <ReleaseDate>7/29/1998</ReleaseDate>
+    <RunTime>127</RunTime>
+  </Movie>
+  <Movie>
+    <Title>Ransom</Title>
+    <Director>Ron Howard</Director>
+    <Genre>1</Genre>
+    <ReleaseDate>11/8/1996</ReleaseDate>
+    <RunTime>121</RunTime>
+  </Movie>
+  <Movie>
+    <Title>Oceans Eleven</Title>
+    <Director>Steven Soderbergh</Director>
+    <Genre>1</Genre>
+    <ReleaseDate>12/7/2001</ReleaseDate>
+    <RunTime>116</RunTime>
+  </Movie>
+  <Movie>
+    <Title>Steel Magnolias</Title>
+    <Director>Herbert Ross</Director>
+    <Genre>1</Genre>
+    <ReleaseDate>11/15/1989</ReleaseDate>
+    <RunTime>117</RunTime>
+  </Movie>
+  <Movie>
+    <Title>Mystic Pizza</Title>
+    <Director>Donald Petrie</Director>
+    <Genre>1</Genre>
+    <ReleaseDate>10/21/1988</ReleaseDate>
+    <RunTime>104</RunTime>
+  </Movie>
+  <Movie>
+    <Title>Pretty Woman</Title>
+    <Director>Garry Marshall</Director>
+    <Genre>1</Genre>
+    <ReleaseDate>3/23/1990</ReleaseDate>
+    <RunTime>119</RunTime>
+  </Movie>
+  <Movie>
+    <Title>Interview with the Vampire</Title>
+    <Director>Neil Jordan</Director>
+    <Genre>1</Genre>
+    <ReleaseDate>11/11/1994</ReleaseDate>
+    <RunTime>123</RunTime>
+  </Movie>
+  <Movie>
+    <Title>Top Gun</Title>
+    <Director>Tony Scott</Director>
+    <Genre>2</Genre>
+    <ReleaseDate>5/16/1986</ReleaseDate>
+    <RunTime>110</RunTime>
+  </Movie>
+  <Movie>
+    <Title>Mission Impossible</Title>
+    <Director>Brian De Palma</Director>
+    <Genre>2</Genre>
+    <ReleaseDate>5/22/1996</ReleaseDate>
+    <RunTime>110</RunTime>
+  </Movie>
+  <Movie>
+    <Title>The Godfather</Title>
+    <Director>Francis Ford Coppola</Director>
+    <Genre>1</Genre>
+    <ReleaseDate>3/24/1972</ReleaseDate>
+    <RunTime>175</RunTime>
+  </Movie>
+  <Movie>
+    <Title>Carlito's Way</Title>
+    <Director>Brian De Palma</Director>
+    <Genre>1</Genre>
+    <ReleaseDate>11/10/1993</ReleaseDate>
+    <RunTime>144</RunTime>
+  </Movie>
+  <Movie>
+    <Title>Robin Hood: Price of Thieves</Title>
+    <Director>Kevin Reynolds</Director>
+    <Genre>1</Genre>
+    <ReleaseDate>6/14/1991</ReleaseDate>
+    <RunTime>143</RunTime>
+  </Movie>
+  <Movie>
+    <Title>The Haunted</Title>
+    <Director>Robert Mandel</Director>
+    <Genre>1</Genre>
+    <ReleaseDate>5/6/1991</ReleaseDate>
+    <RunTime>100</RunTime>
+  </Movie>
+  <Movie>
+    <Title>Old School</Title>
+    <Director>Todd Phillips</Director>
+    <Genre>0</Genre>
+    <ReleaseDate>2/21/2003</ReleaseDate>
+    <RunTime>91</RunTime>
+  </Movie>
+  <Movie>
+    <Title>Anchorman: The Legend of Ron Burgundy</Title>
+    <Director>Adam McKay</Director>
+    <Genre>0</Genre>
+    <ReleaseDate>7/9/2004</ReleaseDate>
+    <RunTime>94</RunTime>
+  </Movie>
+  <Movie>
+    <Title>Bruce Almighty</Title>
+    <Director>Tom Shadyac</Director>
+    <Genre>0</Genre>
+    <ReleaseDate>5/23/2003</ReleaseDate>
+    <RunTime>101</RunTime>
+  </Movie>
+  <Movie>
+    <Title>Ace Ventura: Pet Detective</Title>
+    <Director>Tom Shadyac</Director>
+    <Genre>0</Genre>
+    <ReleaseDate>2/4/1994</ReleaseDate>
+    <RunTime>86</RunTime>
+  </Movie>
+  <Movie>
+    <Title>Goonies</Title>
+    <Director>Richard Donner</Director>
+    <Genre>0</Genre>
+    <ReleaseDate>6/7/1985</ReleaseDate>
+    <RunTime>114</RunTime>
+  </Movie>
+  <Movie>
+    <Title>Sixteen Candles</Title>
+    <Director>John Hughes</Director>
+    <Genre>1</Genre>
+    <ReleaseDate>5/4/1984</ReleaseDate>
+    <RunTime>93</RunTime>
+  </Movie>
+  <Movie>
+    <Title>The Breakfast Club</Title>
+    <Director>John Hughes</Director>
+    <Genre>1</Genre>
+    <ReleaseDate>2/15/1985</ReleaseDate>
+    <RunTime>97</RunTime>
+  </Movie>
+  <Movie>
+    <Title>Pretty in Pink</Title>
+    <Director>Howard Deutch</Director>
+    <Genre>1</Genre>
+    <ReleaseDate>2/28/1986</ReleaseDate>
+    <RunTime>96</RunTime>
+  </Movie>
+  <Movie>
+    <Title>Weird Science</Title>
+    <Director>John Hughes</Director>
+    <Genre>0</Genre>
+    <ReleaseDate>8/2/1985</ReleaseDate>
+    <RunTime>94</RunTime>
+  </Movie>
+  <Movie>
+    <Title>Breakfast at Tiffany's</Title>
+    <Director>Blake Edwards</Director>
+    <Genre>1</Genre>
+    <ReleaseDate>10/5/1961</ReleaseDate>
+    <RunTime>115</RunTime>
+  </Movie>
+  <Movie>
+    <Title>The Graduate</Title>
+    <Director>Mike Nichols</Director>
+    <Genre>1</Genre>
+    <ReleaseDate>4/2/1968</ReleaseDate>
+    <RunTime>105</RunTime>
+  </Movie>
+  <Movie>
+    <Title>Dazed and Confused</Title>
+    <Director>Richard Linklater</Director>
+    <Genre>0</Genre>
+    <ReleaseDate>9/24/1993</ReleaseDate>
+    <RunTime>103</RunTime>
+  </Movie>
+  <Movie>
+    <Title>Arthur</Title>
+    <Director>Steve Gordon</Director>
+    <Genre>1</Genre>
+    <ReleaseDate>9/25/1981</ReleaseDate>
+    <RunTime>97</RunTime>
+  </Movie>
+  <Movie>
+    <Title>Monty Python and the Holy Grail</Title>
+    <Director>Terry Gilliam</Director>
+    <Genre>0</Genre>
+    <ReleaseDate>5/10/1975</ReleaseDate>
+    <RunTime>91</RunTime>
+  </Movie>
+  <Movie>
+    <Title>Dirty Harry</Title>
+    <Director>Don Siegel</Director>
+    <Genre>2</Genre>
+    <ReleaseDate>12/23/1971</ReleaseDate>
+    <RunTime>102</RunTime>
+  </Movie>
+</Movies>

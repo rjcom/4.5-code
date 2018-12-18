@@ -1,0 +1,117 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="AdventureWorks2012_DataModel" Alias="Self" p1:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:p1="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityContainer Name="AdventureWorks2012_DataEntities" p1:LazyLoadingEnabled="true">
+    <EntitySet Name="Employees" EntityType="AdventureWorks2012_DataModel.Employee" />
+    <EntitySet Name="Departments" EntityType="AdventureWorks2012_DataModel.Department" />
+    <EntitySet Name="EmployeeDepartmentHistories" EntityType="AdventureWorks2012_DataModel.EmployeeDepartmentHistory" />
+    <EntitySet Name="EmployeePayHistories" EntityType="AdventureWorks2012_DataModel.EmployeePayHistory" />
+    <AssociationSet Name="FK_EmployeeDepartmentHistory_Department_DepartmentID" Association="AdventureWorks2012_DataModel.FK_EmployeeDepartmentHistory_Department_DepartmentID">
+      <End Role="Department" EntitySet="Departments" />
+      <End Role="EmployeeDepartmentHistory" EntitySet="EmployeeDepartmentHistories" />
+    </AssociationSet>
+    <AssociationSet Name="FK_EmployeeDepartmentHistory_Employee_BusinessEntityID" Association="AdventureWorks2012_DataModel.FK_EmployeeDepartmentHistory_Employee_BusinessEntityID">
+      <End Role="Employee" EntitySet="Employees" />
+      <End Role="EmployeeDepartmentHistory" EntitySet="EmployeeDepartmentHistories" />
+    </AssociationSet>
+    <AssociationSet Name="FK_EmployeePayHistory_Employee_BusinessEntityID" Association="AdventureWorks2012_DataModel.FK_EmployeePayHistory_Employee_BusinessEntityID">
+      <End Role="Employee" EntitySet="Employees" />
+      <End Role="EmployeePayHistory" EntitySet="EmployeePayHistories" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="Employee">
+    <Key>
+      <PropertyRef Name="BusinessEntityID" />
+    </Key>
+    <Property Name="BusinessEntityID" Type="Int32" Nullable="false" />
+    <Property Name="NationalIDNumber" Type="String" Nullable="false" MaxLength="15" Unicode="true" FixedLength="false" />
+    <Property Name="LoginID" Type="String" Nullable="false" MaxLength="256" Unicode="true" FixedLength="false" />
+    <Property Name="OrganizationLevel" Type="Int16" p1:StoreGeneratedPattern="Computed" />
+    <Property Name="JobTitle" Type="String" Nullable="false" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="BirthDate" Type="DateTime" Nullable="false" Precision="0" />
+    <Property Name="MaritalStatus" Type="String" Nullable="false" MaxLength="1" Unicode="true" FixedLength="true" />
+    <Property Name="Gender" Type="String" Nullable="false" MaxLength="1" Unicode="true" FixedLength="true" />
+    <Property Name="HireDate" Type="DateTime" Nullable="false" Precision="0" />
+    <Property Name="SalariedFlag" Type="Boolean" Nullable="false" />
+    <Property Name="VacationHours" Type="Int16" Nullable="false" />
+    <Property Name="SickLeaveHours" Type="Int16" Nullable="false" />
+    <Property Name="CurrentFlag" Type="Boolean" Nullable="false" />
+    <Property Name="rowguid" Type="Guid" Nullable="false" />
+    <Property Name="ModifiedDate" Type="DateTime" Nullable="false" Precision="3" />
+    <NavigationProperty Name="EmployeeDepartmentHistories" Relationship="AdventureWorks2012_DataModel.FK_EmployeeDepartmentHistory_Employee_BusinessEntityID" FromRole="Employee" ToRole="EmployeeDepartmentHistory" />
+    <NavigationProperty Name="EmployeePayHistories" Relationship="AdventureWorks2012_DataModel.FK_EmployeePayHistory_Employee_BusinessEntityID" FromRole="Employee" ToRole="EmployeePayHistory" />
+  </EntityType>
+  <EntityType Name="Department">
+    <Key>
+      <PropertyRef Name="DepartmentID" />
+    </Key>
+    <Property Type="Int16" Name="DepartmentID" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="String" Name="Name" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="GroupName" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Type="DateTime" Name="ModifiedDate" Nullable="false" Precision="3" />
+    <NavigationProperty Name="EmployeeDepartmentHistories" Relationship="AdventureWorks2012_DataModel.FK_EmployeeDepartmentHistory_Department_DepartmentID" FromRole="Department" ToRole="EmployeeDepartmentHistory" />
+  </EntityType>
+  <EntityType Name="EmployeeDepartmentHistory">
+    <Key>
+      <PropertyRef Name="BusinessEntityID" />
+      <PropertyRef Name="DepartmentID" />
+      <PropertyRef Name="ShiftID" />
+      <PropertyRef Name="StartDate" />
+    </Key>
+    <Property Type="Int32" Name="BusinessEntityID" Nullable="false" />
+    <Property Type="Int16" Name="DepartmentID" Nullable="false" />
+    <Property Type="Byte" Name="ShiftID" Nullable="false" />
+    <Property Type="DateTime" Name="StartDate" Nullable="false" Precision="0" />
+    <Property Type="DateTime" Name="EndDate" Precision="0" />
+    <Property Type="DateTime" Name="ModifiedDate" Nullable="false" Precision="3" />
+    <NavigationProperty Name="Department" Relationship="AdventureWorks2012_DataModel.FK_EmployeeDepartmentHistory_Department_DepartmentID" FromRole="EmployeeDepartmentHistory" ToRole="Department" />
+    <NavigationProperty Name="Employee" Relationship="AdventureWorks2012_DataModel.FK_EmployeeDepartmentHistory_Employee_BusinessEntityID" FromRole="EmployeeDepartmentHistory" ToRole="Employee" />
+  </EntityType>
+  <EntityType Name="EmployeePayHistory">
+    <Key>
+      <PropertyRef Name="BusinessEntityID" />
+      <PropertyRef Name="RateChangeDate" />
+    </Key>
+    <Property Type="Int32" Name="BusinessEntityID" Nullable="false" />
+    <Property Type="DateTime" Name="RateChangeDate" Nullable="false" Precision="3" />
+    <Property Type="Decimal" Name="Rate" Nullable="false" Precision="19" Scale="4" />
+    <Property Type="Byte" Name="PayFrequency" Nullable="false" />
+    <Property Type="DateTime" Name="ModifiedDate" Nullable="false" Precision="3" />
+    <NavigationProperty Name="Employee" Relationship="AdventureWorks2012_DataModel.FK_EmployeePayHistory_Employee_BusinessEntityID" FromRole="EmployeePayHistory" ToRole="Employee" />
+  </EntityType>
+  <Association Name="FK_EmployeeDepartmentHistory_Department_DepartmentID">
+    <End Type="AdventureWorks2012_DataModel.Department" Role="Department" Multiplicity="1" />
+    <End Type="AdventureWorks2012_DataModel.EmployeeDepartmentHistory" Role="EmployeeDepartmentHistory" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Department">
+        <PropertyRef Name="DepartmentID" />
+      </Principal>
+      <Dependent Role="EmployeeDepartmentHistory">
+        <PropertyRef Name="DepartmentID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_EmployeeDepartmentHistory_Employee_BusinessEntityID">
+    <End Type="AdventureWorks2012_DataModel.Employee" Role="Employee" Multiplicity="1" />
+    <End Type="AdventureWorks2012_DataModel.EmployeeDepartmentHistory" Role="EmployeeDepartmentHistory" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Employee">
+        <PropertyRef Name="BusinessEntityID" />
+      </Principal>
+      <Dependent Role="EmployeeDepartmentHistory">
+        <PropertyRef Name="BusinessEntityID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_EmployeePayHistory_Employee_BusinessEntityID">
+    <End Type="AdventureWorks2012_DataModel.Employee" Role="Employee" Multiplicity="1" />
+    <End Type="AdventureWorks2012_DataModel.EmployeePayHistory" Role="EmployeePayHistory" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Employee">
+        <PropertyRef Name="BusinessEntityID" />
+      </Principal>
+      <Dependent Role="EmployeePayHistory">
+        <PropertyRef Name="BusinessEntityID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>

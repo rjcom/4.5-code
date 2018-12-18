@@ -1,0 +1,11 @@
+<asp:TreeView ID="TreeView1" runat="server" Font-Underline="False" 
+ DataSourceId="XmlDataSource1"
+ CollapseImageUrl="Images/CollapseImage.png"
+ ExpandImageUrl="Images/ExpandImage.png"
+ LeafNodeStyle-ImageUrl="Images/LeafImage.png">
+   <DataBindings>
+      <asp:TreeNodeBinding DataMember="Hardware" Text="Computer Hardware" />
+      <asp:TreeNodeBinding DataMember="Item" TextField="Category" />
+      <asp:TreeNodeBinding DataMember="Option" TextField="Choice" />
+   </DataBindings>
+</asp:TreeView>

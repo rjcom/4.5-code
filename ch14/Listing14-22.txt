@@ -1,0 +1,14 @@
+<configuration>
+    <system.web>
+        <healthMonitoring>
+            <!-- Other nodes removed for clarity -->
+            <providers>
+                <clear />
+                <add name="TraceWebEventProvider"
+                    type="System.Web.Management.TraceWebEventProvider,System.Web"
+                    maxEventLength="4096"
+                    maxMessagesPerNotification="1" />
+            </providers>
+        </healthMonitoring>
+    </system.web>
+</configuration>

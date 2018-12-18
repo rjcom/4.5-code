@@ -1,0 +1,10 @@
+C:\Users\JasonGaylord\Documents\Visual Studio 2012\Projects\ProfessionalASPNet45-03\CarBuildProvider-CS\bin\Debug\CarBuildProvider.dll
+C:\Users\JasonGaylord\Documents\Visual Studio 2012\Projects\ProfessionalASPNet45-03\CarBuildProvider-CS\bin\Debug\CarBuildProvider.pdb
+C:\Users\JasonGaylord\Documents\Visual Studio 2012\Projects\ProfessionalASPNet45-03\CarBuildProvider-CS\obj\Debug\CarBuildProvider.dll
+C:\Users\JasonGaylord\Documents\Visual Studio 2012\Projects\ProfessionalASPNet45-03\CarBuildProvider-CS\obj\Debug\CarBuildProvider.pdb
+C:\Users\JasonGaylord\Documents\Visual Studio 2012\Projects\ProfessionalASPNet45-03\CarBuildProvider-CS\obj\Debug\CarBuildProvider-CS.csprojResolveAssemblyReference.cache
+C:\Users\JasonGaylord\Desktop\311820 ch03 Code\ProfessionalASPNet45-03\CarBuildProvider-CS\bin\Debug\CarBuildProvider.dll
+C:\Users\JasonGaylord\Desktop\311820 ch03 Code\ProfessionalASPNet45-03\CarBuildProvider-CS\bin\Debug\CarBuildProvider.pdb
+C:\Users\JasonGaylord\Desktop\311820 ch03 Code\ProfessionalASPNet45-03\CarBuildProvider-CS\obj\Debug\CarBuildProvider-CS.csprojResolveAssemblyReference.cache
+C:\Users\JasonGaylord\Desktop\311820 ch03 Code\ProfessionalASPNet45-03\CarBuildProvider-CS\obj\Debug\CarBuildProvider.dll
+C:\Users\JasonGaylord\Desktop\311820 ch03 Code\ProfessionalASPNet45-03\CarBuildProvider-CS\obj\Debug\CarBuildProvider.pdb

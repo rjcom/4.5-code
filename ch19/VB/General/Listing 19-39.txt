@@ -1,0 +1,12 @@
+﻿<%@ Application Language="VB" %>
+<%@ Import Namespace="Microsoft.AspNet.Membership.OpenAuth"  %>
+
+<script runat="server">
+	' put in Global.asax
+
+    Sub Application_Start(ByVal sender As Object, ByVal e As EventArgs)
+        OpenAuth.AuthenticationClients.AddFacebook( _
+            appId:= "* use your own *", _
+            appSecret:= "* use your own *")
+    End Sub
+</script>

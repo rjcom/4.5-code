@@ -1,0 +1,10 @@
+C:\Users\JasonGaylord\documents\visual studio 2012\Projects\Chapter15\Chapter15\bin\Chapter15.dll
+C:\Users\JasonGaylord\documents\visual studio 2012\Projects\Chapter15\Chapter15\bin\Chapter15.pdb
+C:\Users\JasonGaylord\documents\visual studio 2012\Projects\Chapter15\Chapter15\obj\Debug\Chapter15.csprojResolveAssemblyReference.cache
+C:\Users\JasonGaylord\documents\visual studio 2012\Projects\Chapter15\Chapter15\obj\Debug\Chapter15.dll
+C:\Users\JasonGaylord\documents\visual studio 2012\Projects\Chapter15\Chapter15\obj\Debug\Chapter15.pdb
+C:\Users\JasonGaylord\Desktop\311820 ch15 Code\Chapter15\Chapter15\bin\Chapter15.dll
+C:\Users\JasonGaylord\Desktop\311820 ch15 Code\Chapter15\Chapter15\bin\Chapter15.pdb
+C:\Users\JasonGaylord\Desktop\311820 ch15 Code\Chapter15\Chapter15\obj\Debug\Chapter15.csprojResolveAssemblyReference.cache
+C:\Users\JasonGaylord\Desktop\311820 ch15 Code\Chapter15\Chapter15\obj\Debug\Chapter15.dll
+C:\Users\JasonGaylord\Desktop\311820 ch15 Code\Chapter15\Chapter15\obj\Debug\Chapter15.pdb

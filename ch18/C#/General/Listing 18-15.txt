@@ -1,0 +1,4 @@
+public void AnonymousIdentification_Creating(object sender,AnonymousIDentificationEventArgs e)
+{
+       e.AnonymousID = "Bubbles :" + DateTime.Now;
+}

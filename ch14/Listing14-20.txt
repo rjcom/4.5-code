@@ -1,0 +1,7 @@
+<configuration>
+    <connectionStrings>
+        <add name="LocalSqlServer"
+            allowCustomSqlDatabase="true"
+            connectionString="Data Source=127.0.0.1;Integrated Security=SSPI" />
+    </connectionStrings>
+</configuration>

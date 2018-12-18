@@ -1,0 +1,19 @@
+<configuration>
+   <system.web>
+      <authentication mode="None" />
+
+      <!-- The rest of your web.config file settings go here -->
+
+   </system.web>
+
+   <location path="AdminPage.aspx">
+      <system.web>
+         <authentication mode="Windows" />
+
+         <authorization>
+            <allow users="Win8Pro-En\Christian" />
+            <deny users="*" />
+         </authorization>
+      </system.web>
+   </location>
+</configuration>

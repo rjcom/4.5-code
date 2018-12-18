@@ -1,0 +1,5 @@
+public void Profile_MigrateAnonymous(object sender, ProfileMigrateEventArgs e)
+{
+      ProfileCommon anonymousProfile = Profile.GetProfile(e.AnonymousID);
+      Profile.LastVisited = anonymousProfile.LastVisited;
+}

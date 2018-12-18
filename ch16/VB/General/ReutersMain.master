@@ -1,0 +1,18 @@
+<%@ Master Language="VB" %>
+
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head id="Head1" runat="server">
+    <title>Reuters</title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <p><asp:Label ID="Label1" Runat="server" BackColor="LightGray" 
+            BorderColor="Black" BorderWidth="1px" BorderStyle="Solid" 
+            Font-Size="XX-Large">Reuters Main Master Page</asp:Label></p>
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" Runat="server">
+        </asp:ContentPlaceHolder>
+    </form>
+</body>
+</html>

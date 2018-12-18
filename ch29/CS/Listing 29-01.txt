@@ -1,0 +1,14 @@
+Web.config
+
+<configuration>
+    <system.web>
+        <trace enabled="true" pageOutput="true" />
+    </system.web>
+</configuration>
+
+C#
+
+protected void Page_Load(object sender, EventArgs e)
+{
+    Trace.Write("This message is from the START of the Page_Load method!");
+}

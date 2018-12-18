@@ -1,0 +1,16 @@
+C:\Users\JasonGaylord\Documents\Visual Studio 2012\Projects\ProfessionalASPNet45-03\ProfessionalASPNet45-03VB\bin\ProfessionalASPNet45-03VB.dll
+C:\Users\JasonGaylord\Documents\Visual Studio 2012\Projects\ProfessionalASPNet45-03\ProfessionalASPNet45-03VB\bin\ProfessionalASPNet45-03VB.pdb
+C:\Users\JasonGaylord\Documents\Visual Studio 2012\Projects\ProfessionalASPNet45-03\ProfessionalASPNet45-03VB\bin\ProfessionalASPNet45-03VB.xml
+C:\Users\JasonGaylord\Documents\Visual Studio 2012\Projects\ProfessionalASPNet45-03\ProfessionalASPNet45-03VB\obj\Debug\ProfessionalASPNet45_03VB.Resources.resources
+C:\Users\JasonGaylord\Documents\Visual Studio 2012\Projects\ProfessionalASPNet45-03\ProfessionalASPNet45-03VB\obj\Debug\ProfessionalASPNet45-03VB.vbproj.GenerateResource.Cache
+C:\Users\JasonGaylord\Documents\Visual Studio 2012\Projects\ProfessionalASPNet45-03\ProfessionalASPNet45-03VB\obj\Debug\ProfessionalASPNet45-03VB.dll
+C:\Users\JasonGaylord\Documents\Visual Studio 2012\Projects\ProfessionalASPNet45-03\ProfessionalASPNet45-03VB\obj\Debug\ProfessionalASPNet45-03VB.xml
+C:\Users\JasonGaylord\Documents\Visual Studio 2012\Projects\ProfessionalASPNet45-03\ProfessionalASPNet45-03VB\obj\Debug\ProfessionalASPNet45-03VB.pdb
+C:\Users\JasonGaylord\Desktop\311820 ch03 Code\ProfessionalASPNet45-03\ProfessionalASPNet45-03VB\bin\ProfessionalASPNet45-03VB.dll
+C:\Users\JasonGaylord\Desktop\311820 ch03 Code\ProfessionalASPNet45-03\ProfessionalASPNet45-03VB\bin\ProfessionalASPNet45-03VB.pdb
+C:\Users\JasonGaylord\Desktop\311820 ch03 Code\ProfessionalASPNet45-03\ProfessionalASPNet45-03VB\bin\ProfessionalASPNet45-03VB.xml
+C:\Users\JasonGaylord\Desktop\311820 ch03 Code\ProfessionalASPNet45-03\ProfessionalASPNet45-03VB\obj\Debug\ProfessionalASPNet45_03VB.Resources.resources
+C:\Users\JasonGaylord\Desktop\311820 ch03 Code\ProfessionalASPNet45-03\ProfessionalASPNet45-03VB\obj\Debug\ProfessionalASPNet45-03VB.vbproj.GenerateResource.Cache
+C:\Users\JasonGaylord\Desktop\311820 ch03 Code\ProfessionalASPNet45-03\ProfessionalASPNet45-03VB\obj\Debug\ProfessionalASPNet45-03VB.dll
+C:\Users\JasonGaylord\Desktop\311820 ch03 Code\ProfessionalASPNet45-03\ProfessionalASPNet45-03VB\obj\Debug\ProfessionalASPNet45-03VB.xml
+C:\Users\JasonGaylord\Desktop\311820 ch03 Code\ProfessionalASPNet45-03\ProfessionalASPNet45-03VB\obj\Debug\ProfessionalASPNet45-03VB.pdb

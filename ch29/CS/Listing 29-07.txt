@@ -1,0 +1,10 @@
+protected void Application_Error(Object sender, EventArgs e)
+{
+   System.Exception bigError = Server.GetLastError();
+   //Example checking for HttpRequestValidationException
+   if(bigError.GetBaseException() is HttpRequestValidationException )
+   {
+     System.Diagnostics.Trace.WriteLine(bigError.ToString());
+    Server.ClearError();
+   }
+}

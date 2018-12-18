@@ -1,0 +1,281 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Chapter13-VB", "http://localhost:4937", "{E15CECDC-6F39-4D4D-B792-1C4D45D4ECEE}"
+	ProjectSection(WebsiteProperties) = preProject
+		UseIISExpress = "true"
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.5"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_4937"
+		Debug.AspNetCompiler.PhysicalPath = "..\..\WebSites\Chapter13-VB\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_4937\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_4937"
+		Release.AspNetCompiler.PhysicalPath = "..\..\WebSites\Chapter13-VB\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_4937\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		SlnRelativePath = "..\..\WebSites\Chapter13-VB\"
+		DefaultWebSiteLanguage = "Visual Basic"
+	EndProjectSection
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Chapter13-WCFService-VB", "http://localhost:2110", "{2EABEADF-AC48-41E1-B80E-228CFE0D395D}"
+	ProjectSection(WebsiteProperties) = preProject
+		UseIISExpress = "true"
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.5"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_2110"
+		Debug.AspNetCompiler.PhysicalPath = "..\..\WebSites\Chapter13-WCFService-VB\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_2110\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_2110"
+		Release.AspNetCompiler.PhysicalPath = "..\..\WebSites\Chapter13-WCFService-VB\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_2110\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		SlnRelativePath = "..\..\WebSites\Chapter13-WCFService-VB\"
+	EndProjectSection
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Chapter13-CustomerConsumer-VB", "http://localhost:5525", "{9E12595D-460E-42E5-8EE6-6C2110BA63BE}"
+	ProjectSection(WebsiteProperties) = preProject
+		UseIISExpress = "true"
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.5"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_5525"
+		Debug.AspNetCompiler.PhysicalPath = "..\..\WebSites\Chapter13-CustomerConsumer-VB\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_5525\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_5525"
+		Release.AspNetCompiler.PhysicalPath = "..\..\WebSites\Chapter13-CustomerConsumer-VB\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_5525\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		SlnRelativePath = "..\..\WebSites\Chapter13-CustomerConsumer-VB\"
+	EndProjectSection
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Chapter13-CS", "http://localhost:4473", "{41663E4B-20C5-408D-93B6-237D64871DC0}"
+	ProjectSection(WebsiteProperties) = preProject
+		UseIISExpress = "true"
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.5"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_4473"
+		Debug.AspNetCompiler.PhysicalPath = "..\..\WebSites\Chapter13-CS\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_4473\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_4473"
+		Release.AspNetCompiler.PhysicalPath = "..\..\WebSites\Chapter13-CS\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_4473\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		SlnRelativePath = "..\..\WebSites\Chapter13-CS\"
+	EndProjectSection
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Chapter13-CustomerConsumer-CS", "http://localhost:5526", "{C3000C14-C895-40B0-9085-3A0FAE8796C6}"
+	ProjectSection(WebsiteProperties) = preProject
+		UseIISExpress = "true"
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.5"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_5526"
+		Debug.AspNetCompiler.PhysicalPath = "..\..\WebSites\Chapter13-CustomerConsumer-CS\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_5526\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_5526"
+		Release.AspNetCompiler.PhysicalPath = "..\..\WebSites\Chapter13-CustomerConsumer-CS\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_5526\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		SlnRelativePath = "..\..\WebSites\Chapter13-CustomerConsumer-CS\"
+	EndProjectSection
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Chapter13-WCFService-CS", "http://localhost:2109", "{BC9432A4-DCB0-41C6-952D-3070B7D1014E}"
+	ProjectSection(WebsiteProperties) = preProject
+		UseIISExpress = "true"
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.5"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_2109"
+		Debug.AspNetCompiler.PhysicalPath = "..\..\WebSites\Chapter13-WCFService-CS\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_2109\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_2109"
+		Release.AspNetCompiler.PhysicalPath = "..\..\WebSites\Chapter13-WCFService-CS\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_2109\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		SlnRelativePath = "..\..\WebSites\Chapter13-WCFService-CS\"
+	EndProjectSection
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Chapter13-WcfDSConsumer", "http://localhost:42644", "{E6E65236-5FBD-4C8A-BD37-AAA33CB9C3B5}"
+	ProjectSection(WebsiteProperties) = preProject
+		UseIISExpress = "true"
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.5"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_42644"
+		Debug.AspNetCompiler.PhysicalPath = "..\..\WebSites\Chapter13-WcfDSConsumer\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_42644\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_42644"
+		Release.AspNetCompiler.PhysicalPath = "..\..\WebSites\Chapter13-WcfDSConsumer\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_42644\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		SlnRelativePath = "..\..\WebSites\Chapter13-WcfDSConsumer\"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Chapter13-WcfDSConsumer-VB", "http://localhost:42811", "{0C0663B3-D970-4C78-9D57-E0EA70A56F8B}"
+	ProjectSection(WebsiteProperties) = preProject
+		UseIISExpress = "true"
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.5"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_42811"
+		Debug.AspNetCompiler.PhysicalPath = "..\..\WebSites\Chapter13-WcfDSConsumer-VB\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_42811\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_42811"
+		Release.AspNetCompiler.PhysicalPath = "..\..\WebSites\Chapter13-WcfDSConsumer-VB\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_42811\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		SlnRelativePath = "..\..\WebSites\Chapter13-WcfDSConsumer-VB\"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OurFirstWebApi-CS", "OurFirstWebApi-CS\OurFirstWebApi-CS.csproj", "{CB044B98-DC66-4134-90D9-7CD5C6D08468}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "OurFirstWebApi-VB", "OurFirstWebApi-VB\OurFirstWebApi-VB.vbproj", "{D2C9BDB9-9B22-470E-8ABB-F890B32431EC}"
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "ApiConsumer-CS", "http://localhost:43454", "{B2827CA1-13EC-4B66-BCE4-C0DF39B4BBB8}"
+	ProjectSection(WebsiteProperties) = preProject
+		UseIISExpress = "true"
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.5"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_43454"
+		Debug.AspNetCompiler.PhysicalPath = "..\..\WebSites\ApiConsumer-CS\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_43454\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_43454"
+		Release.AspNetCompiler.PhysicalPath = "..\..\WebSites\ApiConsumer-CS\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_43454\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		SlnRelativePath = "..\..\WebSites\ApiConsumer-CS\"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "ApiConsumer-VB", "http://localhost:43584", "{41E82B02-9FA2-4C12-9556-DDC8E7C6B052}"
+	ProjectSection(WebsiteProperties) = preProject
+		UseIISExpress = "true"
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.5"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_43584"
+		Debug.AspNetCompiler.PhysicalPath = "..\..\WebSites\ApiConsumer-VB\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_43584\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_43584"
+		Release.AspNetCompiler.PhysicalPath = "..\..\WebSites\ApiConsumer-VB\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_43584\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		SlnRelativePath = "..\..\WebSites\ApiConsumer-VB\"
+		DefaultWebSiteLanguage = "Visual Basic"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E15CECDC-6F39-4D4D-B792-1C4D45D4ECEE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E15CECDC-6F39-4D4D-B792-1C4D45D4ECEE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E15CECDC-6F39-4D4D-B792-1C4D45D4ECEE}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{E15CECDC-6F39-4D4D-B792-1C4D45D4ECEE}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{2EABEADF-AC48-41E1-B80E-228CFE0D395D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2EABEADF-AC48-41E1-B80E-228CFE0D395D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2EABEADF-AC48-41E1-B80E-228CFE0D395D}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{2EABEADF-AC48-41E1-B80E-228CFE0D395D}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{9E12595D-460E-42E5-8EE6-6C2110BA63BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E12595D-460E-42E5-8EE6-6C2110BA63BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E12595D-460E-42E5-8EE6-6C2110BA63BE}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E12595D-460E-42E5-8EE6-6C2110BA63BE}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{41663E4B-20C5-408D-93B6-237D64871DC0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{41663E4B-20C5-408D-93B6-237D64871DC0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{41663E4B-20C5-408D-93B6-237D64871DC0}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{41663E4B-20C5-408D-93B6-237D64871DC0}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{C3000C14-C895-40B0-9085-3A0FAE8796C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C3000C14-C895-40B0-9085-3A0FAE8796C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C3000C14-C895-40B0-9085-3A0FAE8796C6}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{C3000C14-C895-40B0-9085-3A0FAE8796C6}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{BC9432A4-DCB0-41C6-952D-3070B7D1014E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC9432A4-DCB0-41C6-952D-3070B7D1014E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC9432A4-DCB0-41C6-952D-3070B7D1014E}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC9432A4-DCB0-41C6-952D-3070B7D1014E}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{E6E65236-5FBD-4C8A-BD37-AAA33CB9C3B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E6E65236-5FBD-4C8A-BD37-AAA33CB9C3B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E6E65236-5FBD-4C8A-BD37-AAA33CB9C3B5}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{E6E65236-5FBD-4C8A-BD37-AAA33CB9C3B5}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{0C0663B3-D970-4C78-9D57-E0EA70A56F8B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0C0663B3-D970-4C78-9D57-E0EA70A56F8B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0C0663B3-D970-4C78-9D57-E0EA70A56F8B}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{0C0663B3-D970-4C78-9D57-E0EA70A56F8B}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{CB044B98-DC66-4134-90D9-7CD5C6D08468}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CB044B98-DC66-4134-90D9-7CD5C6D08468}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CB044B98-DC66-4134-90D9-7CD5C6D08468}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CB044B98-DC66-4134-90D9-7CD5C6D08468}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D2C9BDB9-9B22-470E-8ABB-F890B32431EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D2C9BDB9-9B22-470E-8ABB-F890B32431EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D2C9BDB9-9B22-470E-8ABB-F890B32431EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D2C9BDB9-9B22-470E-8ABB-F890B32431EC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B2827CA1-13EC-4B66-BCE4-C0DF39B4BBB8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B2827CA1-13EC-4B66-BCE4-C0DF39B4BBB8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B2827CA1-13EC-4B66-BCE4-C0DF39B4BBB8}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{B2827CA1-13EC-4B66-BCE4-C0DF39B4BBB8}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{41E82B02-9FA2-4C12-9556-DDC8E7C6B052}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{41E82B02-9FA2-4C12-9556-DDC8E7C6B052}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{41E82B02-9FA2-4C12-9556-DDC8E7C6B052}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{41E82B02-9FA2-4C12-9556-DDC8E7C6B052}.Release|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

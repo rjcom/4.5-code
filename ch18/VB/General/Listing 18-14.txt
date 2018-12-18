@@ -1,0 +1,9 @@
+<configuration>
+  <system.web>
+
+       <anonymousIdentification
+           enabled="true"
+           cookieless="UseUri" />
+		   
+  </system.web>
+</configuration>

@@ -1,0 +1,10 @@
+C:\Users\JasonGaylord\documents\visual studio 2012\Projects\Chapter15\Chapter15-CustomProviders-CS\bin\Chapter15-CustomProviders-CS.dll
+C:\Users\JasonGaylord\documents\visual studio 2012\Projects\Chapter15\Chapter15-CustomProviders-CS\bin\Chapter15-CustomProviders-CS.pdb
+C:\Users\JasonGaylord\documents\visual studio 2012\Projects\Chapter15\Chapter15-CustomProviders-CS\obj\Debug\Chapter15-CustomProviders-CS.dll
+C:\Users\JasonGaylord\documents\visual studio 2012\Projects\Chapter15\Chapter15-CustomProviders-CS\obj\Debug\Chapter15-CustomProviders-CS.pdb
+C:\Users\JasonGaylord\Documents\Visual Studio 2012\Projects\Chapter15\Chapter15-CustomProviders-CS\obj\Debug\Chapter15-CustomProviders-CS.csprojResolveAssemblyReference.cache
+C:\Users\JasonGaylord\Desktop\311820 ch15 Code\Chapter15\Chapter15-CustomProviders-CS\bin\Chapter15-CustomProviders-CS.dll
+C:\Users\JasonGaylord\Desktop\311820 ch15 Code\Chapter15\Chapter15-CustomProviders-CS\bin\Chapter15-CustomProviders-CS.pdb
+C:\Users\JasonGaylord\Desktop\311820 ch15 Code\Chapter15\Chapter15-CustomProviders-CS\obj\Debug\Chapter15-CustomProviders-CS.csprojResolveAssemblyReference.cache
+C:\Users\JasonGaylord\Desktop\311820 ch15 Code\Chapter15\Chapter15-CustomProviders-CS\obj\Debug\Chapter15-CustomProviders-CS.dll
+C:\Users\JasonGaylord\Desktop\311820 ch15 Code\Chapter15\Chapter15-CustomProviders-CS\obj\Debug\Chapter15-CustomProviders-CS.pdb

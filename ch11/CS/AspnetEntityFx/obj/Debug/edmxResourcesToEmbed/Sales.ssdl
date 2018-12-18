@@ -1,0 +1,150 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="AdventureWorks2012_DataModel1.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2008" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityContainer Name="AdventureWorks2012_DataModel1StoreContainer">
+    <EntitySet Name="Customer" EntityType="AdventureWorks2012_DataModel1.Store.Customer" store:Type="Tables" Schema="Sales" />
+    <EntitySet Name="SalesOrderDetail" EntityType="AdventureWorks2012_DataModel1.Store.SalesOrderDetail" store:Type="Tables" Schema="Sales" />
+    <EntitySet Name="SalesOrderHeader" EntityType="AdventureWorks2012_DataModel1.Store.SalesOrderHeader" store:Type="Tables" Schema="Sales" />
+    <EntitySet Name="SalesTerritory" EntityType="AdventureWorks2012_DataModel1.Store.SalesTerritory" store:Type="Tables" Schema="Sales" />
+    <AssociationSet Name="FK_Customer_SalesTerritory_TerritoryID" Association="AdventureWorks2012_DataModel1.Store.FK_Customer_SalesTerritory_TerritoryID">
+      <End Role="SalesTerritory" EntitySet="SalesTerritory" />
+      <End Role="Customer" EntitySet="Customer" />
+    </AssociationSet>
+    <AssociationSet Name="FK_SalesOrderDetail_SalesOrderHeader_SalesOrderID" Association="AdventureWorks2012_DataModel1.Store.FK_SalesOrderDetail_SalesOrderHeader_SalesOrderID">
+      <End Role="SalesOrderHeader" EntitySet="SalesOrderHeader" />
+      <End Role="SalesOrderDetail" EntitySet="SalesOrderDetail" />
+    </AssociationSet>
+    <AssociationSet Name="FK_SalesOrderHeader_Customer_CustomerID" Association="AdventureWorks2012_DataModel1.Store.FK_SalesOrderHeader_Customer_CustomerID">
+      <End Role="Customer" EntitySet="Customer" />
+      <End Role="SalesOrderHeader" EntitySet="SalesOrderHeader" />
+    </AssociationSet>
+    <AssociationSet Name="FK_SalesOrderHeader_SalesTerritory_TerritoryID" Association="AdventureWorks2012_DataModel1.Store.FK_SalesOrderHeader_SalesTerritory_TerritoryID">
+      <End Role="SalesTerritory" EntitySet="SalesTerritory" />
+      <End Role="SalesOrderHeader" EntitySet="SalesOrderHeader" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="Customer">
+    <Key>
+      <PropertyRef Name="CustomerID" />
+    </Key>
+    <Property Name="CustomerID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="PersonID" Type="int" />
+    <Property Name="StoreID" Type="int" />
+    <Property Name="TerritoryID" Type="int" />
+    <Property Name="AccountNumber" Type="varchar" Nullable="false" MaxLength="10" StoreGeneratedPattern="Computed" />
+    <Property Name="rowguid" Type="uniqueidentifier" Nullable="false" />
+    <Property Name="ModifiedDate" Type="datetime" Nullable="false" />
+  </EntityType>
+  <EntityType Name="SalesOrderDetail">
+    <Key>
+      <PropertyRef Name="SalesOrderID" />
+      <PropertyRef Name="SalesOrderDetailID" />
+    </Key>
+    <Property Name="SalesOrderID" Type="int" Nullable="false" />
+    <Property Name="SalesOrderDetailID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="CarrierTrackingNumber" Type="nvarchar" MaxLength="25" />
+    <Property Name="OrderQty" Type="smallint" Nullable="false" />
+    <Property Name="ProductID" Type="int" Nullable="false" />
+    <Property Name="SpecialOfferID" Type="int" Nullable="false" />
+    <Property Name="UnitPrice" Type="money" Nullable="false" />
+    <Property Name="UnitPriceDiscount" Type="money" Nullable="false" />
+    <Property Name="LineTotal" Type="numeric" Nullable="false" Precision="38" Scale="6" StoreGeneratedPattern="Computed" />
+    <Property Name="rowguid" Type="uniqueidentifier" Nullable="false" />
+    <Property Name="ModifiedDate" Type="datetime" Nullable="false" />
+  </EntityType>
+  <EntityType Name="SalesOrderHeader">
+    <Key>
+      <PropertyRef Name="SalesOrderID" />
+    </Key>
+    <Property Name="SalesOrderID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="RevisionNumber" Type="tinyint" Nullable="false" />
+    <Property Name="OrderDate" Type="datetime" Nullable="false" />
+    <Property Name="DueDate" Type="datetime" Nullable="false" />
+    <Property Name="ShipDate" Type="datetime" />
+    <Property Name="Status" Type="tinyint" Nullable="false" />
+    <Property Name="OnlineOrderFlag" Type="bit" Nullable="false" />
+    <Property Name="SalesOrderNumber" Type="nvarchar" Nullable="false" MaxLength="25" StoreGeneratedPattern="Computed" />
+    <Property Name="PurchaseOrderNumber" Type="nvarchar" MaxLength="25" />
+    <Property Name="AccountNumber" Type="nvarchar" MaxLength="15" />
+    <Property Name="CustomerID" Type="int" Nullable="false" />
+    <Property Name="SalesPersonID" Type="int" />
+    <Property Name="TerritoryID" Type="int" />
+    <Property Name="BillToAddressID" Type="int" Nullable="false" />
+    <Property Name="ShipToAddressID" Type="int" Nullable="false" />
+    <Property Name="ShipMethodID" Type="int" Nullable="false" />
+    <Property Name="CreditCardID" Type="int" />
+    <Property Name="CreditCardApprovalCode" Type="varchar" MaxLength="15" />
+    <Property Name="CurrencyRateID" Type="int" />
+    <Property Name="SubTotal" Type="money" Nullable="false" />
+    <Property Name="TaxAmt" Type="money" Nullable="false" />
+    <Property Name="Freight" Type="money" Nullable="false" />
+    <Property Name="TotalDue" Type="money" Nullable="false" StoreGeneratedPattern="Computed" />
+    <Property Name="Comment" Type="nvarchar" MaxLength="128" />
+    <Property Name="rowguid" Type="uniqueidentifier" Nullable="false" />
+    <Property Name="ModifiedDate" Type="datetime" Nullable="false" />
+  </EntityType>
+  <EntityType Name="SalesTerritory">
+    <Key>
+      <PropertyRef Name="TerritoryID" />
+    </Key>
+    <Property Name="TerritoryID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="CountryRegionCode" Type="nvarchar" Nullable="false" MaxLength="3" />
+    <Property Name="Group" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="SalesYTD" Type="money" Nullable="false" />
+    <Property Name="SalesLastYear" Type="money" Nullable="false" />
+    <Property Name="CostYTD" Type="money" Nullable="false" />
+    <Property Name="CostLastYear" Type="money" Nullable="false" />
+    <Property Name="rowguid" Type="uniqueidentifier" Nullable="false" />
+    <Property Name="ModifiedDate" Type="datetime" Nullable="false" />
+  </EntityType>
+  <Association Name="FK_Customer_SalesTerritory_TerritoryID">
+    <End Role="SalesTerritory" Type="AdventureWorks2012_DataModel1.Store.SalesTerritory" Multiplicity="0..1" />
+    <End Role="Customer" Type="AdventureWorks2012_DataModel1.Store.Customer" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="SalesTerritory">
+        <PropertyRef Name="TerritoryID" />
+      </Principal>
+      <Dependent Role="Customer">
+        <PropertyRef Name="TerritoryID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_SalesOrderDetail_SalesOrderHeader_SalesOrderID">
+    <End Role="SalesOrderHeader" Type="AdventureWorks2012_DataModel1.Store.SalesOrderHeader" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="SalesOrderDetail" Type="AdventureWorks2012_DataModel1.Store.SalesOrderDetail" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="SalesOrderHeader">
+        <PropertyRef Name="SalesOrderID" />
+      </Principal>
+      <Dependent Role="SalesOrderDetail">
+        <PropertyRef Name="SalesOrderID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_SalesOrderHeader_Customer_CustomerID">
+    <End Role="Customer" Type="AdventureWorks2012_DataModel1.Store.Customer" Multiplicity="1" />
+    <End Role="SalesOrderHeader" Type="AdventureWorks2012_DataModel1.Store.SalesOrderHeader" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Customer">
+        <PropertyRef Name="CustomerID" />
+      </Principal>
+      <Dependent Role="SalesOrderHeader">
+        <PropertyRef Name="CustomerID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_SalesOrderHeader_SalesTerritory_TerritoryID">
+    <End Role="SalesTerritory" Type="AdventureWorks2012_DataModel1.Store.SalesTerritory" Multiplicity="0..1" />
+    <End Role="SalesOrderHeader" Type="AdventureWorks2012_DataModel1.Store.SalesOrderHeader" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="SalesTerritory">
+        <PropertyRef Name="TerritoryID" />
+      </Principal>
+      <Dependent Role="SalesOrderHeader">
+        <PropertyRef Name="TerritoryID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>

@@ -1,0 +1,8 @@
+﻿$(function () {
+    $("#button1").one(
+       "click",
+        function () {
+            $("#label1").html("clicked at: " + new Date().toLocaleTimeString());
+        }
+    );
+});

@@ -1,0 +1,20 @@
+<configuration>
+  <system.web>
+
+     <profile
+      defaultProvider="AspNetSqlProvider">
+
+                <properties>
+
+                     <add name="FirstName" />
+                     <add name="LastName" />
+                     <add name="LastVisited" />
+                     <add name="Age" />
+                     <add name="Member" provider="AspNetSql2012ProfileProvider" />
+
+                </properties>
+
+       </profile>
+
+  </system.web>
+</configuration>

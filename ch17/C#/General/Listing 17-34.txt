@@ -1,0 +1,10 @@
+<configuration>  
+  <location path="AdminOnly.aspx">
+    <system.web>
+      <authorization>
+        <allow roles="Admin" />
+        <deny users="*" />
+      </authorization>
+    </system.web>
+  </location>
+</configuration>

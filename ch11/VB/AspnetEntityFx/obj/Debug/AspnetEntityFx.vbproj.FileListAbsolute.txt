@@ -1,0 +1,13 @@
+C:\Projects\Chapter11\AspnetEntityFx\VB\AspnetEntityFx\bin\AspnetEntityFx.dll
+C:\Projects\Chapter11\AspnetEntityFx\VB\AspnetEntityFx\bin\AspnetEntityFx.pdb
+C:\Projects\Chapter11\AspnetEntityFx\VB\AspnetEntityFx\bin\AspnetEntityFx.xml
+C:\Projects\Chapter11\AspnetEntityFx\VB\AspnetEntityFx\bin\EntityFramework.dll
+C:\Projects\Chapter11\AspnetEntityFx\VB\AspnetEntityFx\bin\EntityFramework.xml
+C:\Projects\Chapter11\AspnetEntityFx\VB\AspnetEntityFx\obj\Debug\AspnetEntityFx.vbprojResolveAssemblyReference.cache
+C:\Projects\Chapter11\AspnetEntityFx\VB\AspnetEntityFx\obj\Debug\AspnetEntityFx.Resources.resources
+C:\Projects\Chapter11\AspnetEntityFx\VB\AspnetEntityFx\obj\Debug\AspnetEntityFx.vbproj.GenerateResource.Cache
+C:\Projects\Chapter11\AspnetEntityFx\VB\AspnetEntityFx\obj\Debug\AspnetEntityFx.dll
+C:\Projects\Chapter11\AspnetEntityFx\VB\AspnetEntityFx\obj\Debug\AspnetEntityFx.xml
+C:\Projects\Chapter11\AspnetEntityFx\VB\AspnetEntityFx\obj\Debug\AspnetEntityFx.pdb
+C:\Projects\Chapter11\AspnetEntityFx\VB\AspnetEntityFx\obj\Debug\AspnetEntityFx.Migrations.InitialCreate.resources
+C:\Projects\Chapter11\AspnetEntityFx\VB\AspnetEntityFx\obj\Debug\AspnetEntityFx.Migrations.TeamPlayerRelationship.resources

@@ -1,0 +1,3 @@
+If (Roles.IsUserInRole(TextBox1.Text, "AdminPageRights")) Then
+   ' perform action here
+End If

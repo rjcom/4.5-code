@@ -1,0 +1,16 @@
+C:\Users\JasonGaylord\Documents\Visual Studio 2012\Projects\ProfessionalASPNet45-03\CarBuildProvider-VB\bin\Debug\CarBuildProvider-VB.dll
+C:\Users\JasonGaylord\Documents\Visual Studio 2012\Projects\ProfessionalASPNet45-03\CarBuildProvider-VB\bin\Debug\CarBuildProvider-VB.pdb
+C:\Users\JasonGaylord\Documents\Visual Studio 2012\Projects\ProfessionalASPNet45-03\CarBuildProvider-VB\bin\Debug\CarBuildProvider-VB.xml
+C:\Users\JasonGaylord\Documents\Visual Studio 2012\Projects\ProfessionalASPNet45-03\CarBuildProvider-VB\obj\Debug\CarBuildProvider_VB.Resources.resources
+C:\Users\JasonGaylord\Documents\Visual Studio 2012\Projects\ProfessionalASPNet45-03\CarBuildProvider-VB\obj\Debug\CarBuildProvider-VB.vbproj.GenerateResource.Cache
+C:\Users\JasonGaylord\Documents\Visual Studio 2012\Projects\ProfessionalASPNet45-03\CarBuildProvider-VB\obj\Debug\CarBuildProvider-VB.dll
+C:\Users\JasonGaylord\Documents\Visual Studio 2012\Projects\ProfessionalASPNet45-03\CarBuildProvider-VB\obj\Debug\CarBuildProvider-VB.xml
+C:\Users\JasonGaylord\Documents\Visual Studio 2012\Projects\ProfessionalASPNet45-03\CarBuildProvider-VB\obj\Debug\CarBuildProvider-VB.pdb
+C:\Users\JasonGaylord\Desktop\311820 ch03 Code\ProfessionalASPNet45-03\CarBuildProvider-VB\bin\Debug\CarBuildProvider-VB.dll
+C:\Users\JasonGaylord\Desktop\311820 ch03 Code\ProfessionalASPNet45-03\CarBuildProvider-VB\bin\Debug\CarBuildProvider-VB.pdb
+C:\Users\JasonGaylord\Desktop\311820 ch03 Code\ProfessionalASPNet45-03\CarBuildProvider-VB\bin\Debug\CarBuildProvider-VB.xml
+C:\Users\JasonGaylord\Desktop\311820 ch03 Code\ProfessionalASPNet45-03\CarBuildProvider-VB\obj\Debug\CarBuildProvider_VB.Resources.resources
+C:\Users\JasonGaylord\Desktop\311820 ch03 Code\ProfessionalASPNet45-03\CarBuildProvider-VB\obj\Debug\CarBuildProvider-VB.vbproj.GenerateResource.Cache
+C:\Users\JasonGaylord\Desktop\311820 ch03 Code\ProfessionalASPNet45-03\CarBuildProvider-VB\obj\Debug\CarBuildProvider-VB.dll
+C:\Users\JasonGaylord\Desktop\311820 ch03 Code\ProfessionalASPNet45-03\CarBuildProvider-VB\obj\Debug\CarBuildProvider-VB.xml
+C:\Users\JasonGaylord\Desktop\311820 ch03 Code\ProfessionalASPNet45-03\CarBuildProvider-VB\obj\Debug\CarBuildProvider-VB.pdb
